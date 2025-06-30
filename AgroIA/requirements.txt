@@ -1,6 +1,0 @@
-tensorflow
-streamlit
-fastapi
-pandas
-matplotlib
-scikit-learn
