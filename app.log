@@ -1,0 +1,80 @@
+2025-07-13 13:23:25,050 - __main__ - INFO - Módulo Home importado exitosamente
+2025-07-13 13:23:25,056 - __main__ - INFO - Archivo config.toml creado/actualizado en: C:\Users\pmari\.streamlit\config.toml
+2025-07-13 13:23:25,056 - __main__ - CRITICAL - Error crítico en main(): stat: path should be string, bytes, os.PathLike or integer, not NoneType
+2025-07-13 13:23:26,874 - tensorflow - WARNING - From C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA\.venv\Lib\site-packages\keras\src\backend\common\global_state.py:82: The name tf.reset_default_graph is deprecated. Please use tf.compat.v1.reset_default_graph instead.
+
+2025-07-13 13:25:06,364 - __main__ - INFO - Módulo Home importado exitosamente
+2025-07-13 13:25:06,371 - __main__ - INFO - Archivo config.toml creado/actualizado en: C:\Users\pmari\.streamlit\config.toml
+2025-07-13 13:25:06,371 - app.Home - INFO - Estado de sesión inicializado con página predeterminada
+2025-07-13 13:25:06,371 - app.Home - INFO - Clase Home inicializada exitosamente
+2025-07-13 13:25:06,371 - __main__ - INFO - Menú Home inicializado exitosamente
+2025-07-13 13:25:07,867 - __main__ - INFO - Hilo de API lanzado exitosamente
+2025-07-13 13:25:07,867 - __main__ - INFO - Iniciando servidor API...
+2025-07-13 13:25:08,057 - app.Home - INFO - Módulo no implementado para: Modelo ANN
+2025-07-13 13:25:08,057 - app.Home - INFO - Página home renderizada exitosamente
+2025-07-13 13:25:08,057 - __main__ - INFO - Aplicación ejecutándose correctamente
+2025-07-13 13:25:08,233 - tensorflow - WARNING - From C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA\.venv\Lib\site-packages\keras\src\backend\common\global_state.py:82: The name tf.reset_default_graph is deprecated. Please use tf.compat.v1.reset_default_graph instead.
+
+2025-07-13 13:25:09,374 - Api - INFO - Aplicación FastAPI creada exitosamente
+2025-07-13 13:25:09,374 - routes.Route_Ann - INFO - Router ANN inicializado correctamente
+2025-07-13 13:25:09,374 - Api - INFO - Router ANN incluido exitosamente
+2025-07-13 13:25:09,374 - fastapi - ERROR - Form data requires "python-multipart" to be installed. 
+You can install "python-multipart" with: 
+
+pip install python-multipart
+
+2025-07-13 13:25:09,374 - routes.Route_Cnn - ERROR - Error al inicializar el router CNN: Form data requires "python-multipart" to be installed. 
+You can install "python-multipart" with: 
+
+pip install python-multipart
+
+2025-07-13 13:25:09,374 - Api - ERROR - Error inesperado al incluir router: 500: Error interno del servidor al inicializar: Form data requires "python-multipart" to be installed. 
+You can install "python-multipart" with: 
+
+pip install python-multipart
+
+2025-07-13 13:25:09,374 - Api - CRITICAL - Error crítico al crear la aplicación: 500: Error al configurar el router CNN
+2025-07-13 13:25:09,374 - __main__ - ERROR - Error inesperado al iniciar API: 500: Error al configurar el router CNN
+2025-07-13 13:25:55,770 - __main__ - INFO - Módulo Home importado exitosamente
+2025-07-13 13:25:55,777 - __main__ - INFO - Archivo config.toml creado/actualizado en: C:\Users\pmari\.streamlit\config.toml
+2025-07-13 13:25:55,779 - app.Home - INFO - Estado de sesión inicializado con página predeterminada
+2025-07-13 13:25:55,779 - app.Home - INFO - Clase Home inicializada exitosamente
+2025-07-13 13:25:55,780 - __main__ - INFO - Menú Home inicializado exitosamente
+2025-07-13 13:25:58,160 - __main__ - INFO - Hilo de API lanzado exitosamente
+2025-07-13 13:25:58,161 - __main__ - INFO - Iniciando servidor API...
+2025-07-13 13:25:58,408 - app.Home - INFO - Módulo no implementado para: Modelo ANN
+2025-07-13 13:25:58,415 - app.Home - INFO - Página home renderizada exitosamente
+2025-07-13 13:25:58,416 - __main__ - INFO - Aplicación ejecutándose correctamente
+2025-07-13 13:25:58,635 - tensorflow - WARNING - From C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA\.venv\Lib\site-packages\keras\src\backend\common\global_state.py:82: The name tf.reset_default_graph is deprecated. Please use tf.compat.v1.reset_default_graph instead.
+
+2025-07-13 13:25:59,600 - Api - INFO - Aplicación FastAPI creada exitosamente
+2025-07-13 13:25:59,600 - routes.Route_Ann - INFO - Router ANN inicializado correctamente
+2025-07-13 13:25:59,600 - Api - INFO - Router ANN incluido exitosamente
+2025-07-13 13:25:59,606 - routes.Route_Cnn - INFO - Router CNN inicializado correctamente
+2025-07-13 13:25:59,609 - Api - INFO - Router CNN incluido exitosamente
+2025-07-13 13:25:59,611 - routes.Route_Rnn - INFO - Router ANN inicializado correctamente
+2025-07-13 13:25:59,611 - Api - INFO - Router CNN incluido exitosamente
+2025-07-13 13:26:12,804 - __main__ - INFO - Módulo Home importado exitosamente
+2025-07-13 13:26:12,808 - app.Home - INFO - Clase Home inicializada exitosamente
+2025-07-13 13:26:12,808 - __main__ - INFO - Menú Home inicializado exitosamente
+2025-07-13 13:26:12,812 - app.Home - INFO - Página seleccionada: Modelo CNN
+2025-07-13 13:26:13,158 - __main__ - INFO - Módulo Home importado exitosamente
+2025-07-13 13:26:13,162 - app.Home - INFO - Clase Home inicializada exitosamente
+2025-07-13 13:26:13,162 - __main__ - INFO - Menú Home inicializado exitosamente
+2025-07-13 13:26:13,171 - app.Home - INFO - Página home renderizada exitosamente
+2025-07-13 13:26:13,171 - __main__ - INFO - Aplicación ejecutándose correctamente
+2025-07-13 13:26:24,182 - __main__ - INFO - Módulo Home importado exitosamente
+2025-07-13 13:26:24,188 - app.Home - INFO - Clase Home inicializada exitosamente
+2025-07-13 13:26:24,188 - __main__ - INFO - Menú Home inicializado exitosamente
+2025-07-13 13:26:24,292 - app.Home - INFO - Página home renderizada exitosamente
+2025-07-13 13:26:24,295 - __main__ - INFO - Aplicación ejecutándose correctamente
+2025-07-13 13:26:28,699 - __main__ - INFO - Módulo Home importado exitosamente
+2025-07-13 13:26:28,703 - app.Home - INFO - Clase Home inicializada exitosamente
+2025-07-13 13:26:28,703 - __main__ - INFO - Menú Home inicializado exitosamente
+2025-07-13 13:26:29,111 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-13 13:26:30,079 - app.Home - INFO - Página home renderizada exitosamente
+2025-07-13 13:26:30,079 - __main__ - INFO - Aplicación ejecutándose correctamente
+2025-07-13 13:27:00,358 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-13 13:27:00,545 - routes.Route_Cnn - INFO - Diagnóstico exitoso para imagen: Tarde.JPG
+2025-07-13 13:27:23,999 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-13 13:27:24,190 - routes.Route_Cnn - INFO - Diagnóstico exitoso para imagen: mala2.jpg
