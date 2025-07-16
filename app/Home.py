@@ -12,6 +12,8 @@ import logging
 import streamlit as st
 from typing import Dict, Optional, Any
 from app.assets.Modulo1Web import Modulo1Web
+from app.assets.Modulo3Web import Modulo3Web
+
 
 # Configurar logging específico para Home
 logger = logging.getLogger(__name__)
@@ -41,7 +43,7 @@ class Home:
                     raise
 
             self.__menu = {
-                "Modelo ANN": None,  # Representa el modulo ANN
+                "Modelo ANN": Modulo3Web(),  # Representa el modulo ANN
                 "Modelo CNN": Modulo1Web(),  # Representa el modulo CNN
                 "Modelo RNN": None  # Representa el modulo RNN
             }

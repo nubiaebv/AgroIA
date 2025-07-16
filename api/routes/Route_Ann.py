@@ -10,6 +10,8 @@ from fastapi.responses import JSONResponse
 import logging
 from typing import Dict, Any
 
+from api.services.Service_Ann import Service_Ann
+
 # Configurar logging
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
@@ -60,49 +62,47 @@ class Route_Ann:
                 detail=f"Error interno al obtener router: {str(e)}"
             )
 
-    def obtener_modelo(self, id: int = Query(..., description="ID del modelo a consultar")) -> Dict[str, Any]:
+    def obtener_modelo(self, precipitacion,  temperatura_max, temperatura_min,
+                       humedad_aire, ph_suelo) -> Dict[str, Any]:
+        """
+        Obtiene predicción del modelo ANN usando Service_Ann
+        Sigue el mismo patrón que la ejecución manual
+        """
         try:
-            # Validación de entrada
-            if id is None:
-                logger.warning("ID proporcionado es None")
+            # Validaciones básicas
+            if any(param is None for param in [precipitacion, temperatura_max, temperatura_min, humedad_aire, ph_suelo]):
+                logger.warning("Parámetros nulos proporcionados")
                 raise HTTPException(
                     status_code=status.HTTP_400_BAD_REQUEST,
-                    detail="El ID no puede ser nulo"
+                    detail="Todos los parámetros son requeridos"
                 )
 
-            if id <= 0:
-                logger.warning(f"ID inválido proporcionado: {id}")
-                raise HTTPException(
-                    status_code=status.HTTP_400_BAD_REQUEST,
-                    detail="El ID debe ser un número positivo mayor a 0"
-                )
+            # Crear fila de datos igual que en el código manual
+            fila = {
+                "lluvia_mm": precipitacion,
+                "temp_max": temperatura_max,
+                "temp_min": temperatura_min,
+                "humedad": humedad_aire,
+                "ph_suelo": ph_suelo
+            }
 
-            if id > 999999:  # Límite razonable para IDs
-                logger.warning(f"ID fuera de rango: {id}")
-                raise HTTPException(
-                    status_code=status.HTTP_400_BAD_REQUEST,
-                    detail="El ID está fuera del rango permitido (1-999999)"
-                )
-
-            # Simulación de validación de existencia del modelo
-            # En una implementación real, aquí consultarías la base de datos
-            if id == 404:  # Ejemplo de ID no encontrado
-                logger.warning(f"Modelo con ID {id} no encontrado")
-                raise HTTPException(
-                    status_code=status.HTTP_404_NOT_FOUND,
-                    detail=f"Modelo con ID {id} no encontrado"
-                )
+            # Generar predicción igual que en el código manual
+            service_ann = Service_Ann(fila)
+            prediccion_info = service_ann.prediccion()
 
             # Registro de operación exitosa
-            logger.info(f"Consulta exitosa para modelo ID: {id}")
+            logger.info(f"Predicción exitosa: {prediccion_info['prediccion']}")
 
             # Respuesta exitosa
-            return {
-                "mensaje": "Consulta de modelo exitoso",
-                "id": id,
-                "timestamp": None,  # Se podría agregar timestamp si es necesario
+            respuesta = {
+                "mensaje": "Predicción generada exitosamente",
+                "datos_entrada": fila,
+                "prediccion": prediccion_info,
                 "status": "success"
             }
+
+            # Convertir tipos numpy a tipos nativos de Python antes de retornar
+            return self.convertir_numpy_a_python(respuesta)
 
         except HTTPException:
             # Re-lanzar HTTPExceptions para que FastAPI las maneje correctamente
@@ -114,6 +114,13 @@ class Route_Ann:
                 status_code=status.HTTP_400_BAD_REQUEST,
                 detail=f"Error de validación: {str(e)}"
             )
+        except FileNotFoundError as e:
+            # Error si no se encuentra el modelo
+            logger.error(f"Modelo no encontrado: {str(e)}")
+            raise HTTPException(
+                status_code=status.HTTP_404_NOT_FOUND,
+                detail="Modelo de predicción no encontrado. Contacte al administrador."
+            )
         except Exception as e:
             # Error genérico no previsto
             logger.error(f"Error inesperado en obtener_modelo: {str(e)}", exc_info=True)
@@ -121,3 +128,22 @@ class Route_Ann:
                 status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
                 detail="Error interno del servidor. Contacte al administrador."
             )
+
+    def convertir_numpy_a_python(self, obj):
+        """
+        Convierte tipos numpy a tipos nativos de Python para serialización JSON
+        """
+        import numpy as np
+
+        if isinstance(obj, dict):
+            return {key: self.convertir_numpy_a_python(value) for key, value in obj.items()}
+        elif isinstance(obj, list):
+            return [self.convertir_numpy_a_python(item) for item in obj]
+        elif isinstance(obj, np.integer):
+            return int(obj)
+        elif isinstance(obj, np.floating):
+            return float(obj)
+        elif isinstance(obj, np.ndarray):
+            return obj.tolist()
+        else:
+            return obj

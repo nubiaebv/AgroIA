@@ -78,3 +78,712 @@ pip install python-multipart
 2025-07-13 13:27:00,545 - routes.Route_Cnn - INFO - Diagnóstico exitoso para imagen: Tarde.JPG
 2025-07-13 13:27:23,999 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
 2025-07-13 13:27:24,190 - routes.Route_Cnn - INFO - Diagnóstico exitoso para imagen: mala2.jpg
+2025-07-15 20:51:27,082 - __main__ - ERROR - Error al importar Home: No module named 'tensorflow'
+2025-07-15 20:57:33,017 - __main__ - INFO - Módulo Home importado exitosamente
+2025-07-15 20:57:33,017 - __main__ - INFO - Módulo Home importado exitosamente
+2025-07-15 20:57:33,145 - __main__ - INFO - Archivo config.toml creado/actualizado en: C:\Users\ale23\.streamlit\config.toml
+2025-07-15 20:57:33,146 - app.Home - INFO - Estado de sesión inicializado con página predeterminada
+2025-07-15 20:57:33,146 - app.Home - INFO - Clase Home inicializada exitosamente
+2025-07-15 20:57:33,148 - __main__ - INFO - Menú Home inicializado exitosamente
+2025-07-15 20:57:34,320 - tensorflow - WARNING - From C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA\.venv\Lib\site-packages\keras\src\backend\common\global_state.py:82: The name tf.reset_default_graph is deprecated. Please use tf.compat.v1.reset_default_graph instead.
+
+2025-07-15 20:57:34,493 - __main__ - INFO - Hilo de API lanzado exitosamente
+2025-07-15 20:57:34,493 - __main__ - INFO - Iniciando servidor API...
+2025-07-15 20:57:34,605 - app.Home - INFO - Módulo no implementado para: Modelo ANN
+2025-07-15 20:57:34,611 - app.Home - INFO - Página home renderizada exitosamente
+2025-07-15 20:57:34,614 - __main__ - INFO - Aplicación ejecutándose correctamente
+2025-07-15 20:57:35,034 - __main__ - ERROR - Error al importar módulo API: No module named 'fastapi'
+2025-07-15 21:06:56,194 - __main__ - INFO - Módulo Home importado exitosamente
+2025-07-15 21:06:56,196 - __main__ - INFO - Archivo config.toml creado/actualizado en: C:\Users\ale23\.streamlit\config.toml
+2025-07-15 21:06:56,197 - app.Home - INFO - Estado de sesión inicializado con página predeterminada
+2025-07-15 21:06:56,197 - app.Home - INFO - Clase Home inicializada exitosamente
+2025-07-15 21:06:56,197 - __main__ - INFO - Menú Home inicializado exitosamente
+2025-07-15 21:06:56,542 - __main__ - INFO - Iniciando servidor API...
+2025-07-15 21:06:56,542 - __main__ - INFO - Hilo de API lanzado exitosamente
+2025-07-15 21:06:56,665 - app.Home - INFO - Módulo no implementado para: Modelo ANN
+2025-07-15 21:06:56,672 - app.Home - INFO - Página home renderizada exitosamente
+2025-07-15 21:06:56,672 - __main__ - INFO - Aplicación ejecutándose correctamente
+2025-07-15 21:06:56,829 - tensorflow - WARNING - From C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA\.venv\Lib\site-packages\keras\src\backend\common\global_state.py:82: The name tf.reset_default_graph is deprecated. Please use tf.compat.v1.reset_default_graph instead.
+
+2025-07-15 21:06:57,615 - Api - INFO - Aplicación FastAPI creada exitosamente
+2025-07-15 21:06:57,616 - routes.Route_Ann - INFO - Router ANN inicializado correctamente
+2025-07-15 21:06:57,620 - Api - INFO - Router ANN incluido exitosamente
+2025-07-15 21:06:57,622 - fastapi - ERROR - Form data requires "python-multipart" to be installed. 
+You can install "python-multipart" with: 
+
+pip install python-multipart
+
+2025-07-15 21:06:57,622 - routes.Route_Cnn - ERROR - Error al inicializar el router CNN: Form data requires "python-multipart" to be installed. 
+You can install "python-multipart" with: 
+
+pip install python-multipart
+
+2025-07-15 21:06:57,622 - Api - ERROR - Error inesperado al incluir router: 500: Error interno del servidor al inicializar: Form data requires "python-multipart" to be installed. 
+You can install "python-multipart" with: 
+
+pip install python-multipart
+
+2025-07-15 21:06:57,622 - Api - CRITICAL - Error crítico al crear la aplicación: 500: Error al configurar el router CNN
+2025-07-15 21:06:57,624 - __main__ - ERROR - Error inesperado al iniciar API: 500: Error al configurar el router CNN
+2025-07-15 21:07:02,243 - __main__ - INFO - Módulo Home importado exitosamente
+2025-07-15 21:07:02,245 - app.Home - INFO - Clase Home inicializada exitosamente
+2025-07-15 21:07:02,245 - __main__ - INFO - Menú Home inicializado exitosamente
+2025-07-15 21:07:02,247 - app.Home - INFO - Página seleccionada: Modelo ANN
+2025-07-15 21:07:02,456 - __main__ - INFO - Módulo Home importado exitosamente
+2025-07-15 21:07:02,458 - app.Home - INFO - Clase Home inicializada exitosamente
+2025-07-15 21:07:02,458 - __main__ - INFO - Menú Home inicializado exitosamente
+2025-07-15 21:07:02,461 - app.Home - INFO - Módulo no implementado para: Modelo ANN
+2025-07-15 21:07:02,462 - app.Home - INFO - Página home renderizada exitosamente
+2025-07-15 21:07:02,463 - __main__ - INFO - Aplicación ejecutándose correctamente
+2025-07-15 21:07:03,711 - __main__ - INFO - Módulo Home importado exitosamente
+2025-07-15 21:07:03,713 - app.Home - INFO - Clase Home inicializada exitosamente
+2025-07-15 21:07:03,714 - __main__ - INFO - Menú Home inicializado exitosamente
+2025-07-15 21:07:03,717 - app.Home - INFO - Página seleccionada: Modelo CNN
+2025-07-15 21:07:03,921 - __main__ - INFO - Módulo Home importado exitosamente
+2025-07-15 21:07:03,923 - app.Home - INFO - Clase Home inicializada exitosamente
+2025-07-15 21:07:03,923 - __main__ - INFO - Menú Home inicializado exitosamente
+2025-07-15 21:07:03,930 - app.Home - INFO - Página home renderizada exitosamente
+2025-07-15 21:07:03,931 - __main__ - INFO - Aplicación ejecutándose correctamente
+2025-07-15 21:07:04,924 - __main__ - INFO - Módulo Home importado exitosamente
+2025-07-15 21:07:04,926 - app.Home - INFO - Clase Home inicializada exitosamente
+2025-07-15 21:07:04,928 - __main__ - INFO - Menú Home inicializado exitosamente
+2025-07-15 21:07:04,933 - app.Home - INFO - Página seleccionada: Modelo RNN
+2025-07-15 21:07:05,143 - __main__ - INFO - Módulo Home importado exitosamente
+2025-07-15 21:07:05,145 - app.Home - INFO - Clase Home inicializada exitosamente
+2025-07-15 21:07:05,146 - __main__ - INFO - Menú Home inicializado exitosamente
+2025-07-15 21:07:05,149 - app.Home - INFO - Módulo no implementado para: Modelo RNN
+2025-07-15 21:07:05,150 - app.Home - INFO - Página home renderizada exitosamente
+2025-07-15 21:07:05,150 - __main__ - INFO - Aplicación ejecutándose correctamente
+2025-07-15 21:07:06,374 - __main__ - INFO - Módulo Home importado exitosamente
+2025-07-15 21:07:06,377 - app.Home - INFO - Clase Home inicializada exitosamente
+2025-07-15 21:07:06,377 - __main__ - INFO - Menú Home inicializado exitosamente
+2025-07-15 21:07:06,381 - app.Home - INFO - Página seleccionada: Modelo CNN
+2025-07-15 21:07:06,585 - __main__ - INFO - Módulo Home importado exitosamente
+2025-07-15 21:07:06,587 - app.Home - INFO - Clase Home inicializada exitosamente
+2025-07-15 21:07:06,587 - __main__ - INFO - Menú Home inicializado exitosamente
+2025-07-15 21:07:06,595 - app.Home - INFO - Página home renderizada exitosamente
+2025-07-15 21:07:06,596 - __main__ - INFO - Aplicación ejecutándose correctamente
+2025-07-15 21:07:46,482 - __main__ - INFO - Módulo Home importado exitosamente
+2025-07-15 21:07:46,483 - app.Home - INFO - Clase Home inicializada exitosamente
+2025-07-15 21:07:46,483 - __main__ - INFO - Menú Home inicializado exitosamente
+2025-07-15 21:07:46,596 - app.Home - INFO - Página home renderizada exitosamente
+2025-07-15 21:07:46,596 - __main__ - INFO - Aplicación ejecutándose correctamente
+2025-07-15 21:07:51,376 - __main__ - INFO - Módulo Home importado exitosamente
+2025-07-15 21:07:51,378 - app.Home - INFO - Clase Home inicializada exitosamente
+2025-07-15 21:07:51,379 - __main__ - INFO - Menú Home inicializado exitosamente
+2025-07-15 21:07:51,620 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-15 21:07:52,296 - app.Home - INFO - Página home renderizada exitosamente
+2025-07-15 21:07:52,297 - __main__ - INFO - Aplicación ejecutándose correctamente
+2025-07-15 21:22:47,914 - __main__ - INFO - Módulo Home importado exitosamente
+2025-07-15 21:22:47,923 - __main__ - INFO - Archivo config.toml creado/actualizado en: C:\Users\ale23\.streamlit\config.toml
+2025-07-15 21:22:48,085 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-15 21:22:48,095 - app.Home - INFO - Estado de sesión inicializado con página predeterminada
+2025-07-15 21:22:48,096 - app.Home - INFO - Clase Home inicializada exitosamente
+2025-07-15 21:22:48,096 - __main__ - INFO - Menú Home inicializado exitosamente
+2025-07-15 21:22:49,334 - __main__ - INFO - Hilo de API lanzado exitosamente
+2025-07-15 21:22:49,334 - __main__ - INFO - Iniciando servidor API...
+2025-07-15 21:22:49,426 - app.Home - INFO - Página home renderizada exitosamente
+2025-07-15 21:22:49,428 - __main__ - INFO - Aplicación ejecutándose correctamente
+2025-07-15 21:22:49,607 - tensorflow - WARNING - From C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA\.venv\Lib\site-packages\keras\src\backend\common\global_state.py:82: The name tf.reset_default_graph is deprecated. Please use tf.compat.v1.reset_default_graph instead.
+
+2025-07-15 21:22:50,732 - Api - INFO - Aplicación FastAPI creada exitosamente
+2025-07-15 21:22:50,736 - routes.Route_Ann - INFO - Router ANN inicializado correctamente
+2025-07-15 21:22:50,740 - Api - INFO - Router ANN incluido exitosamente
+2025-07-15 21:22:50,743 - fastapi - ERROR - Form data requires "python-multipart" to be installed. 
+You can install "python-multipart" with: 
+
+pip install python-multipart
+
+2025-07-15 21:22:50,745 - routes.Route_Cnn - ERROR - Error al inicializar el router CNN: Form data requires "python-multipart" to be installed. 
+You can install "python-multipart" with: 
+
+pip install python-multipart
+
+2025-07-15 21:22:50,746 - Api - ERROR - Error inesperado al incluir router: 500: Error interno del servidor al inicializar: Form data requires "python-multipart" to be installed. 
+You can install "python-multipart" with: 
+
+pip install python-multipart
+
+2025-07-15 21:22:50,746 - Api - CRITICAL - Error crítico al crear la aplicación: 500: Error al configurar el router CNN
+2025-07-15 21:22:50,747 - __main__ - ERROR - Error inesperado al iniciar API: 500: Error al configurar el router CNN
+2025-07-15 21:22:58,628 - __main__ - INFO - Módulo Home importado exitosamente
+2025-07-15 21:22:58,776 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-15 21:22:58,788 - app.Home - INFO - Clase Home inicializada exitosamente
+2025-07-15 21:22:58,789 - __main__ - INFO - Menú Home inicializado exitosamente
+2025-07-15 21:22:58,794 - app.Home - INFO - Página seleccionada: Modelo ANN
+2025-07-15 21:22:59,131 - __main__ - INFO - Módulo Home importado exitosamente
+2025-07-15 21:22:59,232 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-15 21:22:59,246 - app.Home - INFO - Clase Home inicializada exitosamente
+2025-07-15 21:22:59,247 - __main__ - INFO - Menú Home inicializado exitosamente
+2025-07-15 21:22:59,272 - app.Home - INFO - Página home renderizada exitosamente
+2025-07-15 21:22:59,272 - __main__ - INFO - Aplicación ejecutándose correctamente
+2025-07-15 21:23:19,812 - __main__ - INFO - Módulo Home importado exitosamente
+2025-07-15 21:23:19,935 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-15 21:23:19,949 - app.Home - INFO - Clase Home inicializada exitosamente
+2025-07-15 21:23:19,949 - __main__ - INFO - Menú Home inicializado exitosamente
+2025-07-15 21:23:19,952 - app.Home - INFO - Página seleccionada: Modelo CNN
+2025-07-15 21:23:20,303 - __main__ - INFO - Módulo Home importado exitosamente
+2025-07-15 21:23:20,430 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-15 21:23:20,441 - app.Home - INFO - Clase Home inicializada exitosamente
+2025-07-15 21:23:20,442 - __main__ - INFO - Menú Home inicializado exitosamente
+2025-07-15 21:23:20,452 - app.Home - INFO - Página home renderizada exitosamente
+2025-07-15 21:23:20,453 - __main__ - INFO - Aplicación ejecutándose correctamente
+2025-07-15 21:23:21,963 - __main__ - INFO - Módulo Home importado exitosamente
+2025-07-15 21:23:22,099 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-15 21:23:22,112 - app.Home - INFO - Clase Home inicializada exitosamente
+2025-07-15 21:23:22,113 - __main__ - INFO - Menú Home inicializado exitosamente
+2025-07-15 21:23:22,117 - app.Home - INFO - Página seleccionada: Modelo RNN
+2025-07-15 21:23:22,430 - __main__ - INFO - Módulo Home importado exitosamente
+2025-07-15 21:23:22,527 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-15 21:23:22,534 - app.Home - INFO - Clase Home inicializada exitosamente
+2025-07-15 21:23:22,534 - __main__ - INFO - Menú Home inicializado exitosamente
+2025-07-15 21:23:22,537 - app.Home - INFO - Módulo no implementado para: Modelo RNN
+2025-07-15 21:23:22,539 - app.Home - INFO - Página home renderizada exitosamente
+2025-07-15 21:23:22,540 - __main__ - INFO - Aplicación ejecutándose correctamente
+2025-07-15 21:23:23,795 - __main__ - INFO - Módulo Home importado exitosamente
+2025-07-15 21:23:23,906 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-15 21:23:23,917 - app.Home - INFO - Clase Home inicializada exitosamente
+2025-07-15 21:23:23,919 - __main__ - INFO - Menú Home inicializado exitosamente
+2025-07-15 21:23:23,923 - app.Home - INFO - Página seleccionada: Modelo ANN
+2025-07-15 21:23:24,263 - __main__ - INFO - Módulo Home importado exitosamente
+2025-07-15 21:23:24,358 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-15 21:23:24,363 - app.Home - INFO - Clase Home inicializada exitosamente
+2025-07-15 21:23:24,363 - __main__ - INFO - Menú Home inicializado exitosamente
+2025-07-15 21:23:24,371 - app.Home - INFO - Página home renderizada exitosamente
+2025-07-15 21:23:24,372 - __main__ - INFO - Aplicación ejecutándose correctamente
+2025-07-15 21:23:52,534 - __main__ - INFO - Módulo Home importado exitosamente
+2025-07-15 21:23:52,671 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-15 21:23:52,681 - app.Home - INFO - Clase Home inicializada exitosamente
+2025-07-15 21:23:52,682 - __main__ - INFO - Menú Home inicializado exitosamente
+2025-07-15 21:23:52,691 - app.Home - INFO - Página home renderizada exitosamente
+2025-07-15 21:23:52,692 - __main__ - INFO - Aplicación ejecutándose correctamente
+2025-07-15 21:23:57,321 - __main__ - INFO - Módulo Home importado exitosamente
+2025-07-15 21:23:57,456 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-15 21:23:57,469 - app.Home - INFO - Clase Home inicializada exitosamente
+2025-07-15 21:23:57,470 - __main__ - INFO - Menú Home inicializado exitosamente
+2025-07-15 21:23:57,484 - app.Home - INFO - Página home renderizada exitosamente
+2025-07-15 21:23:57,484 - __main__ - INFO - Aplicación ejecutándose correctamente
+2025-07-15 21:24:02,399 - __main__ - INFO - Módulo Home importado exitosamente
+2025-07-15 21:24:02,548 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-15 21:24:02,557 - app.Home - INFO - Clase Home inicializada exitosamente
+2025-07-15 21:24:02,558 - __main__ - INFO - Menú Home inicializado exitosamente
+2025-07-15 21:24:02,570 - app.Home - INFO - Página home renderizada exitosamente
+2025-07-15 21:24:02,571 - __main__ - INFO - Aplicación ejecutándose correctamente
+2025-07-15 21:24:09,792 - __main__ - INFO - Módulo Home importado exitosamente
+2025-07-15 21:24:09,955 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-15 21:24:09,971 - app.Home - INFO - Clase Home inicializada exitosamente
+2025-07-15 21:24:09,972 - __main__ - INFO - Menú Home inicializado exitosamente
+2025-07-15 21:24:09,995 - app.Home - INFO - Página home renderizada exitosamente
+2025-07-15 21:24:09,996 - __main__ - INFO - Aplicación ejecutándose correctamente
+2025-07-15 21:24:15,327 - __main__ - INFO - Módulo Home importado exitosamente
+2025-07-15 21:24:15,445 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-15 21:24:15,455 - app.Home - INFO - Clase Home inicializada exitosamente
+2025-07-15 21:24:15,455 - __main__ - INFO - Menú Home inicializado exitosamente
+2025-07-15 21:24:15,467 - app.Home - INFO - Página home renderizada exitosamente
+2025-07-15 21:24:15,467 - __main__ - INFO - Aplicación ejecutándose correctamente
+2025-07-15 21:24:16,797 - __main__ - INFO - Módulo Home importado exitosamente
+2025-07-15 21:24:16,911 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-15 21:24:16,930 - app.Home - INFO - Clase Home inicializada exitosamente
+2025-07-15 21:24:16,930 - __main__ - INFO - Menú Home inicializado exitosamente
+2025-07-15 21:24:17,259 - app.Home - INFO - Página home renderizada exitosamente
+2025-07-15 21:24:17,259 - __main__ - INFO - Aplicación ejecutándose correctamente
+2025-07-15 21:25:31,254 - __main__ - INFO - Módulo Home importado exitosamente
+2025-07-15 21:25:31,393 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-15 21:25:31,409 - app.Home - INFO - Clase Home inicializada exitosamente
+2025-07-15 21:25:31,410 - __main__ - INFO - Menú Home inicializado exitosamente
+2025-07-15 21:25:31,424 - app.Home - INFO - Página home renderizada exitosamente
+2025-07-15 21:25:31,424 - __main__ - INFO - Aplicación ejecutándose correctamente
+2025-07-15 21:25:34,804 - __main__ - INFO - Módulo Home importado exitosamente
+2025-07-15 21:25:34,952 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-15 21:25:34,961 - app.Home - INFO - Clase Home inicializada exitosamente
+2025-07-15 21:25:34,962 - __main__ - INFO - Menú Home inicializado exitosamente
+2025-07-15 21:25:34,973 - app.Home - INFO - Página home renderizada exitosamente
+2025-07-15 21:25:34,974 - __main__ - INFO - Aplicación ejecutándose correctamente
+2025-07-15 21:25:36,033 - __main__ - INFO - Módulo Home importado exitosamente
+2025-07-15 21:25:36,133 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-15 21:25:36,143 - app.Home - INFO - Clase Home inicializada exitosamente
+2025-07-15 21:25:36,144 - __main__ - INFO - Menú Home inicializado exitosamente
+2025-07-15 21:25:36,390 - app.Home - INFO - Página home renderizada exitosamente
+2025-07-15 21:25:36,391 - __main__ - INFO - Aplicación ejecutándose correctamente
+2025-07-15 21:25:46,120 - __main__ - INFO - Módulo Home importado exitosamente
+2025-07-15 21:25:46,248 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-15 21:25:46,256 - app.Home - INFO - Clase Home inicializada exitosamente
+2025-07-15 21:25:46,256 - __main__ - INFO - Menú Home inicializado exitosamente
+2025-07-15 21:25:46,266 - app.Home - INFO - Página home renderizada exitosamente
+2025-07-15 21:25:46,267 - __main__ - INFO - Aplicación ejecutándose correctamente
+2025-07-15 21:25:49,933 - __main__ - INFO - Módulo Home importado exitosamente
+2025-07-15 21:25:50,058 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-15 21:25:50,072 - app.Home - INFO - Clase Home inicializada exitosamente
+2025-07-15 21:25:50,073 - __main__ - INFO - Menú Home inicializado exitosamente
+2025-07-15 21:25:50,350 - app.Home - INFO - Página home renderizada exitosamente
+2025-07-15 21:25:50,350 - __main__ - INFO - Aplicación ejecutándose correctamente
+2025-07-15 21:26:00,826 - __main__ - INFO - Módulo Home importado exitosamente
+2025-07-15 21:26:00,931 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-15 21:26:00,937 - app.Home - INFO - Clase Home inicializada exitosamente
+2025-07-15 21:26:00,937 - __main__ - INFO - Menú Home inicializado exitosamente
+2025-07-15 21:26:00,945 - app.Home - INFO - Página home renderizada exitosamente
+2025-07-15 21:26:00,945 - __main__ - INFO - Aplicación ejecutándose correctamente
+2025-07-15 21:26:06,567 - __main__ - INFO - Módulo Home importado exitosamente
+2025-07-15 21:26:06,723 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-15 21:26:06,738 - app.Home - INFO - Clase Home inicializada exitosamente
+2025-07-15 21:26:06,739 - __main__ - INFO - Menú Home inicializado exitosamente
+2025-07-15 21:26:06,990 - app.Home - INFO - Página home renderizada exitosamente
+2025-07-15 21:26:06,991 - __main__ - INFO - Aplicación ejecutándose correctamente
+2025-07-15 21:26:20,939 - __main__ - INFO - Módulo Home importado exitosamente
+2025-07-15 21:26:21,098 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-15 21:26:21,110 - app.Home - INFO - Clase Home inicializada exitosamente
+2025-07-15 21:26:21,111 - __main__ - INFO - Menú Home inicializado exitosamente
+2025-07-15 21:26:21,122 - app.Home - INFO - Página home renderizada exitosamente
+2025-07-15 21:26:21,122 - __main__ - INFO - Aplicación ejecutándose correctamente
+2025-07-15 21:26:24,051 - __main__ - INFO - Módulo Home importado exitosamente
+2025-07-15 21:26:24,215 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-15 21:26:24,224 - app.Home - INFO - Clase Home inicializada exitosamente
+2025-07-15 21:26:24,224 - __main__ - INFO - Menú Home inicializado exitosamente
+2025-07-15 21:26:24,390 - tensorflow - WARNING - 5 out of the last 5 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x00000223126413A0> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+2025-07-15 21:26:24,443 - app.Home - INFO - Página home renderizada exitosamente
+2025-07-15 21:26:24,445 - __main__ - INFO - Aplicación ejecutándose correctamente
+2025-07-15 21:26:51,741 - __main__ - INFO - Módulo Home importado exitosamente
+2025-07-15 21:26:51,886 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-15 21:26:51,899 - app.Home - INFO - Clase Home inicializada exitosamente
+2025-07-15 21:26:51,900 - __main__ - INFO - Menú Home inicializado exitosamente
+2025-07-15 21:26:51,911 - app.Home - INFO - Página home renderizada exitosamente
+2025-07-15 21:26:51,911 - __main__ - INFO - Aplicación ejecutándose correctamente
+2025-07-15 21:26:57,071 - __main__ - INFO - Módulo Home importado exitosamente
+2025-07-15 21:26:57,182 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-15 21:26:57,192 - app.Home - INFO - Clase Home inicializada exitosamente
+2025-07-15 21:26:57,192 - __main__ - INFO - Menú Home inicializado exitosamente
+2025-07-15 21:26:57,203 - app.Home - INFO - Página home renderizada exitosamente
+2025-07-15 21:26:57,204 - __main__ - INFO - Aplicación ejecutándose correctamente
+2025-07-15 21:27:06,382 - __main__ - INFO - Módulo Home importado exitosamente
+2025-07-15 21:27:06,542 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-15 21:27:06,558 - app.Home - INFO - Clase Home inicializada exitosamente
+2025-07-15 21:27:06,558 - __main__ - INFO - Menú Home inicializado exitosamente
+2025-07-15 21:27:06,575 - app.Home - INFO - Página home renderizada exitosamente
+2025-07-15 21:27:06,576 - __main__ - INFO - Aplicación ejecutándose correctamente
+2025-07-15 21:27:13,563 - __main__ - INFO - Módulo Home importado exitosamente
+2025-07-15 21:27:13,723 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-15 21:27:13,735 - app.Home - INFO - Clase Home inicializada exitosamente
+2025-07-15 21:27:13,736 - __main__ - INFO - Menú Home inicializado exitosamente
+2025-07-15 21:27:13,748 - app.Home - INFO - Página home renderizada exitosamente
+2025-07-15 21:27:13,749 - __main__ - INFO - Aplicación ejecutándose correctamente
+2025-07-15 21:27:14,484 - __main__ - INFO - Módulo Home importado exitosamente
+2025-07-15 21:27:14,618 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-15 21:27:14,635 - app.Home - INFO - Clase Home inicializada exitosamente
+2025-07-15 21:27:14,635 - __main__ - INFO - Menú Home inicializado exitosamente
+2025-07-15 21:27:14,795 - tensorflow - WARNING - 6 out of the last 6 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x00000223126E32E0> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+2025-07-15 21:27:14,842 - app.Home - INFO - Página home renderizada exitosamente
+2025-07-15 21:27:14,843 - __main__ - INFO - Aplicación ejecutándose correctamente
+2025-07-15 21:27:25,105 - __main__ - INFO - Módulo Home importado exitosamente
+2025-07-15 21:27:25,253 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-15 21:27:25,262 - app.Home - INFO - Clase Home inicializada exitosamente
+2025-07-15 21:27:25,262 - __main__ - INFO - Menú Home inicializado exitosamente
+2025-07-15 21:27:25,269 - app.Home - INFO - Página home renderizada exitosamente
+2025-07-15 21:27:25,270 - __main__ - INFO - Aplicación ejecutándose correctamente
+2025-07-15 21:27:27,646 - __main__ - INFO - Módulo Home importado exitosamente
+2025-07-15 21:27:27,788 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-15 21:27:27,796 - app.Home - INFO - Clase Home inicializada exitosamente
+2025-07-15 21:27:27,797 - __main__ - INFO - Menú Home inicializado exitosamente
+2025-07-15 21:27:27,806 - app.Home - INFO - Página home renderizada exitosamente
+2025-07-15 21:27:27,807 - __main__ - INFO - Aplicación ejecutándose correctamente
+2025-07-15 21:27:35,027 - __main__ - INFO - Módulo Home importado exitosamente
+2025-07-15 21:27:35,174 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-15 21:27:35,186 - app.Home - INFO - Clase Home inicializada exitosamente
+2025-07-15 21:27:35,187 - __main__ - INFO - Menú Home inicializado exitosamente
+2025-07-15 21:27:35,203 - app.Home - INFO - Página home renderizada exitosamente
+2025-07-15 21:27:35,204 - __main__ - INFO - Aplicación ejecutándose correctamente
+2025-07-15 21:27:39,090 - __main__ - INFO - Módulo Home importado exitosamente
+2025-07-15 21:27:39,250 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-15 21:27:39,263 - app.Home - INFO - Clase Home inicializada exitosamente
+2025-07-15 21:27:39,264 - __main__ - INFO - Menú Home inicializado exitosamente
+2025-07-15 21:27:39,274 - app.Home - INFO - Página home renderizada exitosamente
+2025-07-15 21:27:39,275 - __main__ - INFO - Aplicación ejecutándose correctamente
+2025-07-15 21:27:44,781 - __main__ - INFO - Módulo Home importado exitosamente
+2025-07-15 21:27:44,926 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-15 21:27:44,938 - app.Home - INFO - Clase Home inicializada exitosamente
+2025-07-15 21:27:44,938 - __main__ - INFO - Menú Home inicializado exitosamente
+2025-07-15 21:27:44,951 - app.Home - INFO - Página home renderizada exitosamente
+2025-07-15 21:27:44,952 - __main__ - INFO - Aplicación ejecutándose correctamente
+2025-07-15 21:27:48,284 - __main__ - INFO - Módulo Home importado exitosamente
+2025-07-15 21:27:48,458 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-15 21:27:48,468 - app.Home - INFO - Clase Home inicializada exitosamente
+2025-07-15 21:27:48,469 - __main__ - INFO - Menú Home inicializado exitosamente
+2025-07-15 21:27:48,481 - app.Home - INFO - Página home renderizada exitosamente
+2025-07-15 21:27:48,482 - __main__ - INFO - Aplicación ejecutándose correctamente
+2025-07-15 21:27:51,626 - __main__ - INFO - Módulo Home importado exitosamente
+2025-07-15 21:27:51,780 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-15 21:27:51,794 - app.Home - INFO - Clase Home inicializada exitosamente
+2025-07-15 21:27:51,797 - __main__ - INFO - Menú Home inicializado exitosamente
+2025-07-15 21:27:51,805 - app.Home - INFO - Página home renderizada exitosamente
+2025-07-15 21:27:51,806 - __main__ - INFO - Aplicación ejecutándose correctamente
+2025-07-15 21:27:53,451 - __main__ - INFO - Módulo Home importado exitosamente
+2025-07-15 21:27:53,608 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-15 21:27:53,621 - app.Home - INFO - Clase Home inicializada exitosamente
+2025-07-15 21:27:53,622 - __main__ - INFO - Menú Home inicializado exitosamente
+2025-07-15 21:27:53,873 - app.Home - INFO - Página home renderizada exitosamente
+2025-07-15 21:27:53,876 - __main__ - INFO - Aplicación ejecutándose correctamente
+2025-07-15 21:29:25,029 - __main__ - INFO - Módulo Home importado exitosamente
+2025-07-15 21:29:25,143 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-15 21:29:25,158 - app.Home - INFO - Clase Home inicializada exitosamente
+2025-07-15 21:29:25,158 - __main__ - INFO - Menú Home inicializado exitosamente
+2025-07-15 21:29:25,168 - app.Home - INFO - Página home renderizada exitosamente
+2025-07-15 21:29:25,168 - __main__ - INFO - Aplicación ejecutándose correctamente
+2025-07-15 21:29:43,488 - __main__ - INFO - Módulo Home importado exitosamente
+2025-07-15 21:29:43,619 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-15 21:29:43,641 - app.Home - INFO - Clase Home inicializada exitosamente
+2025-07-15 21:29:43,642 - __main__ - INFO - Menú Home inicializado exitosamente
+2025-07-15 21:29:43,655 - app.Home - INFO - Página home renderizada exitosamente
+2025-07-15 21:29:43,655 - __main__ - INFO - Aplicación ejecutándose correctamente
+2025-07-15 21:29:52,651 - __main__ - INFO - Módulo Home importado exitosamente
+2025-07-15 21:29:52,795 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-15 21:29:52,807 - app.Home - INFO - Clase Home inicializada exitosamente
+2025-07-15 21:29:52,809 - __main__ - INFO - Menú Home inicializado exitosamente
+2025-07-15 21:29:52,816 - app.Home - INFO - Página home renderizada exitosamente
+2025-07-15 21:29:52,816 - __main__ - INFO - Aplicación ejecutándose correctamente
+2025-07-15 21:30:00,106 - __main__ - INFO - Módulo Home importado exitosamente
+2025-07-15 21:30:00,242 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-15 21:30:00,249 - app.Home - INFO - Clase Home inicializada exitosamente
+2025-07-15 21:30:00,250 - __main__ - INFO - Menú Home inicializado exitosamente
+2025-07-15 21:30:00,258 - app.Home - INFO - Página home renderizada exitosamente
+2025-07-15 21:30:00,259 - __main__ - INFO - Aplicación ejecutándose correctamente
+2025-07-15 21:30:06,734 - __main__ - INFO - Módulo Home importado exitosamente
+2025-07-15 21:30:06,824 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-15 21:30:06,828 - app.Home - INFO - Clase Home inicializada exitosamente
+2025-07-15 21:30:06,828 - __main__ - INFO - Menú Home inicializado exitosamente
+2025-07-15 21:30:06,833 - app.Home - INFO - Página home renderizada exitosamente
+2025-07-15 21:30:06,835 - __main__ - INFO - Aplicación ejecutándose correctamente
+2025-07-15 21:30:07,953 - __main__ - INFO - Módulo Home importado exitosamente
+2025-07-15 21:30:08,041 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-15 21:30:08,048 - app.Home - INFO - Clase Home inicializada exitosamente
+2025-07-15 21:30:08,048 - __main__ - INFO - Menú Home inicializado exitosamente
+2025-07-15 21:30:08,195 - app.Home - INFO - Página home renderizada exitosamente
+2025-07-15 21:30:08,195 - __main__ - INFO - Aplicación ejecutándose correctamente
+2025-07-15 21:30:35,301 - __main__ - INFO - Módulo Home importado exitosamente
+2025-07-15 21:30:35,377 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-15 21:30:35,385 - app.Home - INFO - Clase Home inicializada exitosamente
+2025-07-15 21:30:35,385 - __main__ - INFO - Menú Home inicializado exitosamente
+2025-07-15 21:30:35,390 - app.Home - INFO - Página home renderizada exitosamente
+2025-07-15 21:30:35,390 - __main__ - INFO - Aplicación ejecutándose correctamente
+2025-07-15 21:30:37,807 - __main__ - INFO - Módulo Home importado exitosamente
+2025-07-15 21:30:37,971 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-15 21:30:37,981 - app.Home - INFO - Clase Home inicializada exitosamente
+2025-07-15 21:30:37,981 - __main__ - INFO - Menú Home inicializado exitosamente
+2025-07-15 21:30:37,993 - app.Home - INFO - Página home renderizada exitosamente
+2025-07-15 21:30:37,994 - __main__ - INFO - Aplicación ejecutándose correctamente
+2025-07-15 21:30:41,787 - __main__ - INFO - Módulo Home importado exitosamente
+2025-07-15 21:30:41,917 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-15 21:30:41,929 - app.Home - INFO - Clase Home inicializada exitosamente
+2025-07-15 21:30:41,930 - __main__ - INFO - Menú Home inicializado exitosamente
+2025-07-15 21:30:41,946 - app.Home - INFO - Página home renderizada exitosamente
+2025-07-15 21:30:41,948 - __main__ - INFO - Aplicación ejecutándose correctamente
+2025-07-15 21:30:43,876 - __main__ - INFO - Módulo Home importado exitosamente
+2025-07-15 21:30:44,028 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-15 21:30:44,043 - app.Home - INFO - Clase Home inicializada exitosamente
+2025-07-15 21:30:44,043 - __main__ - INFO - Menú Home inicializado exitosamente
+2025-07-15 21:30:44,058 - app.Home - INFO - Página home renderizada exitosamente
+2025-07-15 21:30:44,060 - __main__ - INFO - Aplicación ejecutándose correctamente
+2025-07-15 21:30:48,678 - __main__ - INFO - Módulo Home importado exitosamente
+2025-07-15 21:30:48,777 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-15 21:30:48,788 - app.Home - INFO - Clase Home inicializada exitosamente
+2025-07-15 21:30:48,788 - __main__ - INFO - Menú Home inicializado exitosamente
+2025-07-15 21:30:49,019 - app.Home - INFO - Página home renderizada exitosamente
+2025-07-15 21:30:49,020 - __main__ - INFO - Aplicación ejecutándose correctamente
+2025-07-15 21:31:24,742 - __main__ - INFO - Módulo Home importado exitosamente
+2025-07-15 21:31:24,893 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-15 21:31:24,905 - app.Home - INFO - Clase Home inicializada exitosamente
+2025-07-15 21:31:24,906 - __main__ - INFO - Menú Home inicializado exitosamente
+2025-07-15 21:31:24,916 - app.Home - INFO - Página home renderizada exitosamente
+2025-07-15 21:31:24,917 - __main__ - INFO - Aplicación ejecutándose correctamente
+2025-07-15 21:31:28,057 - __main__ - INFO - Módulo Home importado exitosamente
+2025-07-15 21:31:28,200 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-15 21:31:28,211 - app.Home - INFO - Clase Home inicializada exitosamente
+2025-07-15 21:31:28,211 - __main__ - INFO - Menú Home inicializado exitosamente
+2025-07-15 21:31:28,221 - app.Home - INFO - Página home renderizada exitosamente
+2025-07-15 21:31:28,222 - __main__ - INFO - Aplicación ejecutándose correctamente
+2025-07-15 21:31:35,198 - __main__ - INFO - Módulo Home importado exitosamente
+2025-07-15 21:31:35,366 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-15 21:31:35,384 - app.Home - INFO - Clase Home inicializada exitosamente
+2025-07-15 21:31:35,384 - __main__ - INFO - Menú Home inicializado exitosamente
+2025-07-15 21:31:35,393 - app.Home - INFO - Página home renderizada exitosamente
+2025-07-15 21:31:35,395 - __main__ - INFO - Aplicación ejecutándose correctamente
+2025-07-15 21:31:40,076 - __main__ - INFO - Módulo Home importado exitosamente
+2025-07-15 21:31:40,218 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-15 21:31:40,226 - app.Home - INFO - Clase Home inicializada exitosamente
+2025-07-15 21:31:40,226 - __main__ - INFO - Menú Home inicializado exitosamente
+2025-07-15 21:31:40,232 - app.Home - INFO - Página home renderizada exitosamente
+2025-07-15 21:31:40,233 - __main__ - INFO - Aplicación ejecutándose correctamente
+2025-07-15 21:31:43,767 - __main__ - INFO - Módulo Home importado exitosamente
+2025-07-15 21:31:43,901 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-15 21:31:43,909 - app.Home - INFO - Clase Home inicializada exitosamente
+2025-07-15 21:31:43,910 - __main__ - INFO - Menú Home inicializado exitosamente
+2025-07-15 21:31:43,919 - app.Home - INFO - Página home renderizada exitosamente
+2025-07-15 21:31:43,920 - __main__ - INFO - Aplicación ejecutándose correctamente
+2025-07-15 21:31:55,513 - __main__ - INFO - Módulo Home importado exitosamente
+2025-07-15 21:31:55,634 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-15 21:31:55,644 - app.Home - INFO - Clase Home inicializada exitosamente
+2025-07-15 21:31:55,645 - __main__ - INFO - Menú Home inicializado exitosamente
+2025-07-15 21:31:55,655 - app.Home - INFO - Página home renderizada exitosamente
+2025-07-15 21:31:55,656 - __main__ - INFO - Aplicación ejecutándose correctamente
+2025-07-15 21:32:08,189 - __main__ - INFO - Módulo Home importado exitosamente
+2025-07-15 21:32:08,340 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-15 21:32:08,349 - app.Home - INFO - Clase Home inicializada exitosamente
+2025-07-15 21:32:08,350 - __main__ - INFO - Menú Home inicializado exitosamente
+2025-07-15 21:32:08,359 - app.Home - INFO - Página home renderizada exitosamente
+2025-07-15 21:32:08,360 - __main__ - INFO - Aplicación ejecutándose correctamente
+2025-07-15 21:32:18,331 - __main__ - INFO - Módulo Home importado exitosamente
+2025-07-15 21:32:18,486 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-15 21:32:18,498 - app.Home - INFO - Clase Home inicializada exitosamente
+2025-07-15 21:32:18,498 - __main__ - INFO - Menú Home inicializado exitosamente
+2025-07-15 21:32:18,509 - app.Home - INFO - Página home renderizada exitosamente
+2025-07-15 21:32:18,510 - __main__ - INFO - Aplicación ejecutándose correctamente
+2025-07-15 21:32:22,228 - __main__ - INFO - Módulo Home importado exitosamente
+2025-07-15 21:32:22,310 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-15 21:32:22,319 - app.Home - INFO - Clase Home inicializada exitosamente
+2025-07-15 21:32:22,319 - __main__ - INFO - Menú Home inicializado exitosamente
+2025-07-15 21:32:22,328 - app.Home - INFO - Página home renderizada exitosamente
+2025-07-15 21:32:22,328 - __main__ - INFO - Aplicación ejecutándose correctamente
+2025-07-15 21:32:44,269 - __main__ - INFO - Módulo Home importado exitosamente
+2025-07-15 21:32:44,352 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-15 21:32:44,357 - app.Home - INFO - Clase Home inicializada exitosamente
+2025-07-15 21:32:44,357 - __main__ - INFO - Menú Home inicializado exitosamente
+2025-07-15 21:32:44,363 - app.Home - INFO - Página home renderizada exitosamente
+2025-07-15 21:32:44,363 - __main__ - INFO - Aplicación ejecutándose correctamente
+2025-07-15 21:32:45,889 - __main__ - INFO - Módulo Home importado exitosamente
+2025-07-15 21:32:45,980 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-15 21:32:45,989 - app.Home - INFO - Clase Home inicializada exitosamente
+2025-07-15 21:32:45,989 - __main__ - INFO - Menú Home inicializado exitosamente
+2025-07-15 21:32:46,122 - app.Home - INFO - Página home renderizada exitosamente
+2025-07-15 21:32:46,123 - __main__ - INFO - Aplicación ejecutándose correctamente
+2025-07-15 21:35:02,048 - __main__ - INFO - Módulo Home importado exitosamente
+2025-07-15 21:35:02,054 - __main__ - INFO - Archivo config.toml creado/actualizado en: C:\Users\ale23\.streamlit\config.toml
+2025-07-15 21:35:02,216 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-15 21:35:02,224 - app.Home - INFO - Estado de sesión inicializado con página predeterminada
+2025-07-15 21:35:02,224 - app.Home - INFO - Clase Home inicializada exitosamente
+2025-07-15 21:35:02,224 - __main__ - INFO - Menú Home inicializado exitosamente
+2025-07-15 21:35:03,481 - __main__ - INFO - Hilo de API lanzado exitosamente
+2025-07-15 21:35:03,481 - __main__ - INFO - Iniciando servidor API...
+2025-07-15 21:35:03,587 - app.Home - INFO - Página home renderizada exitosamente
+2025-07-15 21:35:03,590 - __main__ - INFO - Aplicación ejecutándose correctamente
+2025-07-15 21:35:03,762 - tensorflow - WARNING - From C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA\.venv\Lib\site-packages\keras\src\backend\common\global_state.py:82: The name tf.reset_default_graph is deprecated. Please use tf.compat.v1.reset_default_graph instead.
+
+2025-07-15 21:35:04,752 - Api - INFO - Aplicación FastAPI creada exitosamente
+2025-07-15 21:35:04,758 - routes.Route_Ann - INFO - Router ANN inicializado correctamente
+2025-07-15 21:35:04,761 - Api - INFO - Router ANN incluido exitosamente
+2025-07-15 21:35:04,765 - routes.Route_Cnn - INFO - Router CNN inicializado correctamente
+2025-07-15 21:35:04,768 - Api - INFO - Router CNN incluido exitosamente
+2025-07-15 21:35:04,771 - routes.Route_Rnn - INFO - Router ANN inicializado correctamente
+2025-07-15 21:35:04,774 - Api - INFO - Router CNN incluido exitosamente
+2025-07-15 21:36:52,789 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-15 21:36:53,072 - routes.Route_Ann - INFO - Predicción exitosa: fertilizacion
+2025-07-15 21:37:25,077 - __main__ - INFO - Módulo Home importado exitosamente
+2025-07-15 21:37:25,137 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-15 21:37:25,143 - app.Home - INFO - Clase Home inicializada exitosamente
+2025-07-15 21:37:25,143 - __main__ - INFO - Menú Home inicializado exitosamente
+2025-07-15 21:37:25,145 - app.Home - INFO - Página seleccionada: Modelo ANN
+2025-07-15 21:37:25,510 - __main__ - INFO - Módulo Home importado exitosamente
+2025-07-15 21:37:25,671 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-15 21:37:25,687 - app.Home - INFO - Clase Home inicializada exitosamente
+2025-07-15 21:37:25,689 - __main__ - INFO - Menú Home inicializado exitosamente
+2025-07-15 21:37:25,704 - app.Home - INFO - Página home renderizada exitosamente
+2025-07-15 21:37:25,705 - __main__ - INFO - Aplicación ejecutándose correctamente
+2025-07-15 21:37:27,239 - __main__ - INFO - Módulo Home importado exitosamente
+2025-07-15 21:37:27,376 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-15 21:37:27,383 - app.Home - INFO - Clase Home inicializada exitosamente
+2025-07-15 21:37:27,383 - __main__ - INFO - Menú Home inicializado exitosamente
+2025-07-15 21:37:27,385 - app.Home - INFO - Página seleccionada: Modelo RNN
+2025-07-15 21:37:27,671 - __main__ - INFO - Módulo Home importado exitosamente
+2025-07-15 21:37:27,755 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-15 21:37:27,765 - app.Home - INFO - Clase Home inicializada exitosamente
+2025-07-15 21:37:27,766 - __main__ - INFO - Menú Home inicializado exitosamente
+2025-07-15 21:37:27,771 - app.Home - INFO - Módulo no implementado para: Modelo RNN
+2025-07-15 21:37:27,774 - app.Home - INFO - Página home renderizada exitosamente
+2025-07-15 21:37:27,774 - __main__ - INFO - Aplicación ejecutándose correctamente
+2025-07-15 21:37:29,112 - __main__ - INFO - Módulo Home importado exitosamente
+2025-07-15 21:37:29,236 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-15 21:37:29,243 - app.Home - INFO - Clase Home inicializada exitosamente
+2025-07-15 21:37:29,244 - __main__ - INFO - Menú Home inicializado exitosamente
+2025-07-15 21:37:29,246 - app.Home - INFO - Página seleccionada: Modelo CNN
+2025-07-15 21:37:29,556 - __main__ - INFO - Módulo Home importado exitosamente
+2025-07-15 21:37:29,668 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-15 21:37:29,673 - app.Home - INFO - Clase Home inicializada exitosamente
+2025-07-15 21:37:29,673 - __main__ - INFO - Menú Home inicializado exitosamente
+2025-07-15 21:37:29,682 - app.Home - INFO - Página home renderizada exitosamente
+2025-07-15 21:37:29,683 - __main__ - INFO - Aplicación ejecutándose correctamente
+2025-07-15 21:37:30,463 - __main__ - INFO - Módulo Home importado exitosamente
+2025-07-15 21:37:30,593 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-15 21:37:30,606 - app.Home - INFO - Clase Home inicializada exitosamente
+2025-07-15 21:37:30,607 - __main__ - INFO - Menú Home inicializado exitosamente
+2025-07-15 21:37:30,612 - app.Home - INFO - Página seleccionada: Modelo ANN
+2025-07-15 21:37:31,020 - __main__ - INFO - Módulo Home importado exitosamente
+2025-07-15 21:37:31,128 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-15 21:37:31,138 - app.Home - INFO - Clase Home inicializada exitosamente
+2025-07-15 21:37:31,139 - __main__ - INFO - Menú Home inicializado exitosamente
+2025-07-15 21:37:31,150 - app.Home - INFO - Página home renderizada exitosamente
+2025-07-15 21:37:31,151 - __main__ - INFO - Aplicación ejecutándose correctamente
+2025-07-15 21:38:26,520 - __main__ - INFO - Módulo Home importado exitosamente
+2025-07-15 21:38:26,611 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-15 21:38:26,616 - app.Home - INFO - Clase Home inicializada exitosamente
+2025-07-15 21:38:26,616 - __main__ - INFO - Menú Home inicializado exitosamente
+2025-07-15 21:38:26,621 - app.Home - INFO - Página home renderizada exitosamente
+2025-07-15 21:38:26,622 - __main__ - INFO - Aplicación ejecutándose correctamente
+2025-07-15 21:38:33,985 - __main__ - INFO - Módulo Home importado exitosamente
+2025-07-15 21:38:34,102 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-15 21:38:34,111 - app.Home - INFO - Clase Home inicializada exitosamente
+2025-07-15 21:38:34,111 - __main__ - INFO - Menú Home inicializado exitosamente
+2025-07-15 21:38:34,127 - app.Home - INFO - Página home renderizada exitosamente
+2025-07-15 21:38:34,129 - __main__ - INFO - Aplicación ejecutándose correctamente
+2025-07-15 21:38:46,494 - __main__ - INFO - Módulo Home importado exitosamente
+2025-07-15 21:38:46,574 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-15 21:38:46,582 - app.Home - INFO - Clase Home inicializada exitosamente
+2025-07-15 21:38:46,582 - __main__ - INFO - Menú Home inicializado exitosamente
+2025-07-15 21:38:46,588 - app.Home - INFO - Página home renderizada exitosamente
+2025-07-15 21:38:46,588 - __main__ - INFO - Aplicación ejecutándose correctamente
+2025-07-15 21:39:01,245 - __main__ - INFO - Módulo Home importado exitosamente
+2025-07-15 21:39:01,348 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-15 21:39:01,358 - app.Home - INFO - Clase Home inicializada exitosamente
+2025-07-15 21:39:01,360 - __main__ - INFO - Menú Home inicializado exitosamente
+2025-07-15 21:39:01,376 - app.Home - INFO - Página home renderizada exitosamente
+2025-07-15 21:39:01,377 - __main__ - INFO - Aplicación ejecutándose correctamente
+2025-07-15 21:39:09,263 - __main__ - INFO - Módulo Home importado exitosamente
+2025-07-15 21:39:09,331 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-15 21:39:09,338 - app.Home - INFO - Clase Home inicializada exitosamente
+2025-07-15 21:39:09,338 - __main__ - INFO - Menú Home inicializado exitosamente
+2025-07-15 21:39:09,349 - app.Home - INFO - Página home renderizada exitosamente
+2025-07-15 21:39:09,350 - __main__ - INFO - Aplicación ejecutándose correctamente
+2025-07-15 21:39:16,182 - __main__ - INFO - Módulo Home importado exitosamente
+2025-07-15 21:39:16,247 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-15 21:39:16,254 - app.Home - INFO - Clase Home inicializada exitosamente
+2025-07-15 21:39:16,254 - __main__ - INFO - Menú Home inicializado exitosamente
+2025-07-15 21:39:16,413 - app.Home - INFO - Página home renderizada exitosamente
+2025-07-15 21:39:16,413 - __main__ - INFO - Aplicación ejecutándose correctamente
+2025-07-15 21:40:24,811 - __main__ - INFO - Módulo Home importado exitosamente
+2025-07-15 21:40:24,814 - __main__ - INFO - Archivo config.toml creado/actualizado en: C:\Users\ale23\.streamlit\config.toml
+2025-07-15 21:40:24,874 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-15 21:40:24,882 - app.Home - INFO - Estado de sesión inicializado con página predeterminada
+2025-07-15 21:40:24,882 - app.Home - INFO - Clase Home inicializada exitosamente
+2025-07-15 21:40:24,883 - __main__ - INFO - Menú Home inicializado exitosamente
+2025-07-15 21:40:24,886 - app.Home - INFO - Página home renderizada exitosamente
+2025-07-15 21:40:24,887 - __main__ - INFO - Aplicación ejecutándose correctamente
+2025-07-15 21:40:45,766 - __main__ - INFO - Módulo Home importado exitosamente
+2025-07-15 21:40:45,856 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-15 21:40:45,864 - app.Home - INFO - Clase Home inicializada exitosamente
+2025-07-15 21:40:45,864 - __main__ - INFO - Menú Home inicializado exitosamente
+2025-07-15 21:40:45,871 - app.Home - INFO - Página home renderizada exitosamente
+2025-07-15 21:40:45,872 - __main__ - INFO - Aplicación ejecutándose correctamente
+2025-07-15 21:40:53,809 - __main__ - INFO - Módulo Home importado exitosamente
+2025-07-15 21:40:53,901 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-15 21:40:53,907 - app.Home - INFO - Clase Home inicializada exitosamente
+2025-07-15 21:40:53,908 - __main__ - INFO - Menú Home inicializado exitosamente
+2025-07-15 21:40:53,916 - app.Home - INFO - Página home renderizada exitosamente
+2025-07-15 21:40:53,917 - __main__ - INFO - Aplicación ejecutándose correctamente
+2025-07-15 21:41:04,952 - __main__ - INFO - Módulo Home importado exitosamente
+2025-07-15 21:41:05,078 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-15 21:41:05,087 - app.Home - INFO - Clase Home inicializada exitosamente
+2025-07-15 21:41:05,088 - __main__ - INFO - Menú Home inicializado exitosamente
+2025-07-15 21:41:05,094 - app.Home - INFO - Página home renderizada exitosamente
+2025-07-15 21:41:05,095 - __main__ - INFO - Aplicación ejecutándose correctamente
+2025-07-15 21:41:17,872 - __main__ - INFO - Módulo Home importado exitosamente
+2025-07-15 21:41:17,991 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-15 21:41:18,004 - app.Home - INFO - Clase Home inicializada exitosamente
+2025-07-15 21:41:18,004 - __main__ - INFO - Menú Home inicializado exitosamente
+2025-07-15 21:41:18,019 - app.Home - INFO - Página home renderizada exitosamente
+2025-07-15 21:41:18,020 - __main__ - INFO - Aplicación ejecutándose correctamente
+2025-07-15 21:41:25,465 - __main__ - INFO - Módulo Home importado exitosamente
+2025-07-15 21:41:25,542 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-15 21:41:25,550 - app.Home - INFO - Clase Home inicializada exitosamente
+2025-07-15 21:41:25,550 - __main__ - INFO - Menú Home inicializado exitosamente
+2025-07-15 21:41:25,554 - app.Home - INFO - Página home renderizada exitosamente
+2025-07-15 21:41:25,555 - __main__ - INFO - Aplicación ejecutándose correctamente
+2025-07-15 21:41:26,501 - __main__ - INFO - Módulo Home importado exitosamente
+2025-07-15 21:41:26,566 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-15 21:41:26,573 - app.Home - INFO - Clase Home inicializada exitosamente
+2025-07-15 21:41:26,573 - __main__ - INFO - Menú Home inicializado exitosamente
+2025-07-15 21:41:26,701 - app.Home - INFO - Página home renderizada exitosamente
+2025-07-15 21:41:26,702 - __main__ - INFO - Aplicación ejecutándose correctamente
+2025-07-15 21:44:06,475 - __main__ - INFO - Módulo Home importado exitosamente
+2025-07-15 21:44:06,700 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-15 21:44:06,710 - app.Home - INFO - Clase Home inicializada exitosamente
+2025-07-15 21:44:06,710 - __main__ - INFO - Menú Home inicializado exitosamente
+2025-07-15 21:44:06,720 - app.Home - INFO - Página home renderizada exitosamente
+2025-07-15 21:44:06,720 - __main__ - INFO - Aplicación ejecutándose correctamente
+2025-07-15 21:44:14,650 - __main__ - INFO - Módulo Home importado exitosamente
+2025-07-15 21:44:14,803 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-15 21:44:14,813 - app.Home - INFO - Clase Home inicializada exitosamente
+2025-07-15 21:44:14,813 - __main__ - INFO - Menú Home inicializado exitosamente
+2025-07-15 21:44:14,828 - app.Home - INFO - Página home renderizada exitosamente
+2025-07-15 21:44:14,829 - __main__ - INFO - Aplicación ejecutándose correctamente
+2025-07-15 21:44:21,816 - __main__ - INFO - Módulo Home importado exitosamente
+2025-07-15 21:44:21,937 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-15 21:44:21,945 - app.Home - INFO - Clase Home inicializada exitosamente
+2025-07-15 21:44:21,946 - __main__ - INFO - Menú Home inicializado exitosamente
+2025-07-15 21:44:21,955 - app.Home - INFO - Página home renderizada exitosamente
+2025-07-15 21:44:21,955 - __main__ - INFO - Aplicación ejecutándose correctamente
+2025-07-15 21:44:24,615 - __main__ - INFO - Módulo Home importado exitosamente
+2025-07-15 21:44:24,742 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-15 21:44:24,748 - app.Home - INFO - Clase Home inicializada exitosamente
+2025-07-15 21:44:24,749 - __main__ - INFO - Menú Home inicializado exitosamente
+2025-07-15 21:44:24,759 - app.Home - INFO - Página home renderizada exitosamente
+2025-07-15 21:44:24,759 - __main__ - INFO - Aplicación ejecutándose correctamente
+2025-07-15 21:44:28,114 - __main__ - INFO - Módulo Home importado exitosamente
+2025-07-15 21:44:28,248 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-15 21:44:28,265 - app.Home - INFO - Clase Home inicializada exitosamente
+2025-07-15 21:44:28,266 - __main__ - INFO - Menú Home inicializado exitosamente
+2025-07-15 21:44:28,281 - app.Home - INFO - Página home renderizada exitosamente
+2025-07-15 21:44:28,283 - __main__ - INFO - Aplicación ejecutándose correctamente
+2025-07-15 21:44:29,804 - __main__ - INFO - Módulo Home importado exitosamente
+2025-07-15 21:44:29,928 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-15 21:44:29,939 - app.Home - INFO - Clase Home inicializada exitosamente
+2025-07-15 21:44:29,940 - __main__ - INFO - Menú Home inicializado exitosamente
+2025-07-15 21:44:30,163 - app.Home - INFO - Página home renderizada exitosamente
+2025-07-15 21:44:30,164 - __main__ - INFO - Aplicación ejecutándose correctamente
+2025-07-15 21:44:36,068 - __main__ - INFO - Módulo Home importado exitosamente
+2025-07-15 21:44:36,200 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-15 21:44:36,208 - app.Home - INFO - Clase Home inicializada exitosamente
+2025-07-15 21:44:36,208 - __main__ - INFO - Menú Home inicializado exitosamente
+2025-07-15 21:44:36,218 - app.Home - INFO - Página home renderizada exitosamente
+2025-07-15 21:44:36,219 - __main__ - INFO - Aplicación ejecutándose correctamente
+2025-07-15 21:44:37,124 - __main__ - INFO - Módulo Home importado exitosamente
+2025-07-15 21:44:37,248 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-15 21:44:37,257 - app.Home - INFO - Clase Home inicializada exitosamente
+2025-07-15 21:44:37,257 - __main__ - INFO - Menú Home inicializado exitosamente
+2025-07-15 21:44:37,262 - app.Home - INFO - Página home renderizada exitosamente
+2025-07-15 21:44:37,262 - __main__ - INFO - Aplicación ejecutándose correctamente
+2025-07-15 21:44:38,087 - __main__ - INFO - Módulo Home importado exitosamente
+2025-07-15 21:44:38,207 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-15 21:44:38,217 - app.Home - INFO - Clase Home inicializada exitosamente
+2025-07-15 21:44:38,217 - __main__ - INFO - Menú Home inicializado exitosamente
+2025-07-15 21:44:38,224 - app.Home - INFO - Página home renderizada exitosamente
+2025-07-15 21:44:38,224 - __main__ - INFO - Aplicación ejecutándose correctamente
+2025-07-15 21:44:39,107 - __main__ - INFO - Módulo Home importado exitosamente
+2025-07-15 21:44:39,202 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-15 21:44:39,210 - app.Home - INFO - Clase Home inicializada exitosamente
+2025-07-15 21:44:39,211 - __main__ - INFO - Menú Home inicializado exitosamente
+2025-07-15 21:44:39,216 - app.Home - INFO - Página home renderizada exitosamente
+2025-07-15 21:44:39,218 - __main__ - INFO - Aplicación ejecutándose correctamente
+2025-07-15 21:44:40,226 - __main__ - INFO - Módulo Home importado exitosamente
+2025-07-15 21:44:40,388 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-15 21:44:40,408 - app.Home - INFO - Clase Home inicializada exitosamente
+2025-07-15 21:44:40,408 - __main__ - INFO - Menú Home inicializado exitosamente
+2025-07-15 21:44:40,427 - app.Home - INFO - Página home renderizada exitosamente
+2025-07-15 21:44:40,427 - __main__ - INFO - Aplicación ejecutándose correctamente
+2025-07-15 21:44:40,987 - __main__ - INFO - Módulo Home importado exitosamente
+2025-07-15 21:44:41,086 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-15 21:44:41,094 - app.Home - INFO - Clase Home inicializada exitosamente
+2025-07-15 21:44:41,094 - __main__ - INFO - Menú Home inicializado exitosamente
+2025-07-15 21:44:41,288 - tensorflow - WARNING - 5 out of the last 5 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x000001C6478EEFC0> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+2025-07-15 21:44:41,348 - app.Home - INFO - Página home renderizada exitosamente
+2025-07-15 21:44:41,349 - __main__ - INFO - Aplicación ejecutándose correctamente
+2025-07-15 21:44:47,264 - __main__ - INFO - Módulo Home importado exitosamente
+2025-07-15 21:44:47,270 - __main__ - INFO - Archivo config.toml creado/actualizado en: C:\Users\ale23\.streamlit\config.toml
+2025-07-15 21:44:47,376 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-15 21:44:47,383 - app.Home - INFO - Estado de sesión inicializado con página predeterminada
+2025-07-15 21:44:47,384 - app.Home - INFO - Clase Home inicializada exitosamente
+2025-07-15 21:44:47,384 - __main__ - INFO - Menú Home inicializado exitosamente
+2025-07-15 21:44:47,395 - app.Home - INFO - Página home renderizada exitosamente
+2025-07-15 21:44:47,396 - __main__ - INFO - Aplicación ejecutándose correctamente
+2025-07-15 21:44:49,920 - __main__ - INFO - Módulo Home importado exitosamente
+2025-07-15 21:44:50,058 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-15 21:44:50,067 - app.Home - INFO - Clase Home inicializada exitosamente
+2025-07-15 21:44:50,068 - __main__ - INFO - Menú Home inicializado exitosamente
+2025-07-15 21:44:50,239 - tensorflow - WARNING - 6 out of the last 6 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x000001C647927A60> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+2025-07-15 21:44:50,288 - app.Home - INFO - Página home renderizada exitosamente
+2025-07-15 21:44:50,288 - __main__ - INFO - Aplicación ejecutándose correctamente
