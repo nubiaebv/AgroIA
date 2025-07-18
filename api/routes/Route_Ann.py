@@ -31,7 +31,7 @@ class Route_Ann:
                 endpoint=self.obtener_modelo,
                 methods=["GET"],
                 summary="Consulta de modelo ANN",
-                description="Este endpoint permite consultar el modelo ANN con un ID."
+                description="Este endpoint permite consultar el modelo ANN"
             )
 
             logger.info("Router ANN inicializado correctamente")

@@ -183,3 +183,47 @@ class rnn:
         plt.tight_layout()
         return fig
 
+    def obtener_prediccion_api(self,df: pd.DataFrame):
+        # Obtener solo la fecha más reciente
+        fecha_mas_reciente = pd.to_datetime(df['fecha'].max())
+
+        # Sumar un mes a la fecha más reciente
+        nueva_fecha = fecha_mas_reciente + pd.DateOffset(months=1)
+        df_aux = df.copy()
+
+        df = df[['lluvia', 'humedad', 'temperatura', 'produccion']]
+
+        full_scaler_prediccion = MinMaxScaler()
+        scaled_full_data_prediccion = full_scaler_prediccion.fit_transform(df)
+
+        forecast = []
+
+        periodos = 12  # Indicamos el número de periodos en base a la longitud del forecast deseada (12 meses)
+
+        primer_batch = scaled_full_data_prediccion[-12:]
+        batch_actual = primer_batch.reshape((1, 12, 4))
+
+        for i in range(periodos):
+            pred_actual = self.model.predict(batch_actual)[0]
+            forecast.append(pred_actual)
+
+            # Actualizar batch_actual de forma más simple
+            batch_actual = np.roll(batch_actual, -1, axis=1)
+            batch_actual[0, -1, :] = pred_actual
+
+        forecast = np.array(forecast)
+
+        # Extraer parámetros de la primera variable del scaler original
+        min_val = self.scaler.min_[0]
+        scale_val = self.scaler.scale_[0]
+
+        # Aplicar inverse transform manualmente
+        forecast_original = (forecast / scale_val) + min_val
+
+        forecast_index_prueba = pd.date_range(start=nueva_fecha, periods=12, freq='MS')  #MS = Monthly Start
+        forecast_df_prueba = pd.DataFrame(data=forecast_original, index=forecast_index_prueba,
+                                          columns=['Forecast'])
+
+
+        return forecast_df_prueba
+

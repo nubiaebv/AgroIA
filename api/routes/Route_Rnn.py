@@ -8,10 +8,14 @@ Cambios:
     1. Creacion de clase pmarin 05-07-2025
     2. Implementación de control de excepciones robusto pmarin 06-07-2025
 """
-from fastapi import APIRouter, Query, HTTPException, status
-from fastapi.responses import JSONResponse
+import io
+
+import pandas as pd
+from fastapi import APIRouter, HTTPException, status, UploadFile, File
 import logging
 from typing import Dict, Any
+from api.services.Service_Rnn import Service_Rnn
+
 
 # Configurar logging
 logging.basicConfig(level=logging.INFO)
@@ -28,9 +32,9 @@ class Route_Rnn:
             self._router.add_api_route(
                 path="/consulta",
                 endpoint=self.obtener_modelo,
-                methods=["GET"],
+                methods=["POST"],
                 summary="Consulta de modelo RNN",
-                description="Este endpoint permite consultar el modelo RNN con un ID."
+                description="Este endpoint permite consultar el modelo RNN"
             )
 
             logger.info("Router ANN inicializado correctamente")
@@ -61,63 +65,97 @@ class Route_Rnn:
                 detail=f"Error interno al obtener router: {str(e)}"
             )
 
-    def obtener_modelo(self, id: int = Query(..., description="ID del modelo a consultar")) -> Dict[str, Any]:
+    async def obtener_modelo(self, file: UploadFile = File(...)) -> Dict[str, Any]:
         try:
             # Validación de entrada
-            if id is None:
-                logger.warning("ID proporcionado es None")
+            if file is None:
+                logger.warning("Archivo proporcionado es None")
                 raise HTTPException(
                     status_code=status.HTTP_400_BAD_REQUEST,
-                    detail="El ID no puede ser nulo"
+                    detail="El archivo no puede ser nulo"
                 )
 
-            if id <= 0:
-                logger.warning(f"ID inválido proporcionado: {id}")
+            if not file.filename:
+                logger.warning("Nombre de archivo vacío")
                 raise HTTPException(
                     status_code=status.HTTP_400_BAD_REQUEST,
-                    detail="El ID debe ser un número positivo mayor a 0"
+                    detail="El archivo debe tener un nombre válido"
                 )
 
-            if id > 999999:  # Límite razonable para IDs
-                logger.warning(f"ID fuera de rango: {id}")
+            # Validar extensión
+            if not file.filename.endswith(('.csv', '.xlsx', '.xls')):
+                logger.warning(f"Formato no soportado: {file.filename}")
                 raise HTTPException(
                     status_code=status.HTTP_400_BAD_REQUEST,
-                    detail="El ID está fuera del rango permitido (1-999999)"
+                    detail="Solo se permiten archivos CSV o Excel (.csv, .xlsx, .xls)"
                 )
 
-            # Simulación de validación de existencia del modelo
-            # En una implementación real, aquí consultarías la base de datos
-            if id == 404:  # Ejemplo de ID no encontrado
-                logger.warning(f"Modelo con ID {id} no encontrado")
+            # Validar tamaño (ejemplo: 10MB máximo)
+            if file.size and file.size > 10 * 1024 * 1024:
+                logger.warning(f"Archivo muy grande: {file.filename} ({file.size} bytes)")
                 raise HTTPException(
-                    status_code=status.HTTP_404_NOT_FOUND,
-                    detail=f"Modelo con ID {id} no encontrado"
+                    status_code=status.HTTP_413_REQUEST_ENTITY_TOO_LARGE,
+                    detail="El archivo es demasiado grande (máximo 10MB)"
                 )
+
+            # Leer y procesar archivo
+            contents = await file.read()
+
+            if file.filename.endswith('.csv'):
+                df = pd.read_csv(io.StringIO(contents.decode('utf-8')))
+            else:
+                df = pd.read_excel(io.BytesIO(contents))
+
+            # Validar que no esté vacío
+            if df.empty:
+                logger.warning(f"Archivo vacío: {file.filename}")
+                raise HTTPException(
+                    status_code=status.HTTP_400_BAD_REQUEST,
+                    detail="El archivo está vacío"
+                )
+
+            services_rnn= Service_Rnn()
+
+
+            df_prediccion = services_rnn.prediccion(df)
 
             # Registro de operación exitosa
-            logger.info(f"Consulta exitosa para modelo ID: {id}")
+            logger.info(f"Archivo procesado exitosamente: {file.filename} - "
+                        f"Filas: {len(df)}, Columnas: {len(df.columns)}")
 
             # Respuesta exitosa
+            # Respuesta exitosa CON DATAFRAME COMO JSON
             return {
-                "mensaje": "Consulta de modelo exitoso",
-                "id": id,
-                "timestamp": None,  # Se podría agregar timestamp si es necesario
+                "mensaje": "Archivo procesado exitosamente",
+                "filename": file.filename,
+                "rows": len(df),
+                "columns": len(df.columns),
+                "column_names": df.columns.tolist(),
+                "prediction": df_prediccion.to_dict('index'),  # ← AQUÍ está el DataFrame como JSON
+                "timestamp": None,
                 "status": "success"
             }
 
         except HTTPException:
             # Re-lanzar HTTPExceptions para que FastAPI las maneje correctamente
             raise
-        except ValueError as e:
-            # Error de conversión de tipos
-            logger.error(f"Error de validación de datos: {str(e)}")
+        except UnicodeDecodeError as e:
+            # Error de encoding
+            logger.error(f"Error de encoding en archivo {file.filename}: {str(e)}")
             raise HTTPException(
                 status_code=status.HTTP_400_BAD_REQUEST,
-                detail=f"Error de validación: {str(e)}"
+                detail="Error de codificación del archivo. Verifique que sea UTF-8"
+            )
+        except pd.errors.EmptyDataError as e:
+            # Error de archivo vacío o corrupto
+            logger.error(f"Archivo corrupto: {file.filename}")
+            raise HTTPException(
+                status_code=status.HTTP_400_BAD_REQUEST,
+                detail="El archivo está corrupto o vacío"
             )
         except Exception as e:
             # Error genérico no previsto
-            logger.error(f"Error inesperado en obtener_modelo: {str(e)}", exc_info=True)
+            logger.error(f"Error inesperado procesando archivo {file.filename}: {str(e)}", exc_info=True)
             raise HTTPException(
                 status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
                 detail="Error interno del servidor. Contacte al administrador."
