@@ -13,7 +13,7 @@ class ann:
             self.model = load_model(os.path.join(ruta_raiz, 'models/modelo_pred_cultivopapa.h5'))
             # Inicializar el escalador
             self.scaler  = joblib.load(os.path.join(ruta_raiz,'models/scaler_ANN.pkl'))
-
+            self.is_fitted = False
         except FileNotFoundError:
             raise FileNotFoundError(
                 f"No se encontró el archivo del modelo en la ruta: {os.path.join(ruta_raiz, 'models/modelo_pred_cultivopapa.h5')}")
@@ -56,17 +56,20 @@ class ann:
 
             # Normalizar los datos
             try:
-
-
+                if not self.is_fitted:
+                    # Si es la primera vez, ajustar y transformar
                     X_pred_scaled = self.scaler.fit_transform(X_pred)
-
+                    self.is_fitted = True
+                else:
+                    # Si ya está ajustado, solo transformar
+                    X_pred_scaled = self.scaler.transform(X_pred)
             except Exception as e:
                 raise Exception(f"Error al escalar los datos: {str(e)}")
 
             # Realizar predicción
             try:
-                predicciones_raw = self.model.predict(X_pred)
-                resultado_indices = np.argmax(predicciones_raw)
+                predicciones_raw = self.model.predict(X_pred_scaled)
+                resultado_indices = np.argmax(predicciones_raw, axis=-1)
 
 
             except Exception as e:
@@ -74,7 +77,9 @@ class ann:
 
             # Obtener las probabilidades máximas para cada predicción
             try:
+                print("Se cae aqui")
                 probabilidades = np.max(predicciones_raw, axis=-1)
+                print(probabilidades)
 
                 # Mapear índices a recomendaciones
                 mapeo_recomendaciones = {
@@ -82,6 +87,8 @@ class ann:
                     1: 'riego',
                     2: 'poda_preventiva'
                 }
+
+                print(mapeo_recomendaciones)
                 print("Datos ANN")
                 print(predicciones_raw)
                 print(resultado_indices)
