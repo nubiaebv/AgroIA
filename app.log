@@ -2346,3 +2346,658 @@ TypeError: Route_Ann.convertir_numpy_a_python() takes 1 positional argument but 
 2025-07-18 00:10:24,642 - __main__ - INFO - Menú Home inicializado exitosamente
 2025-07-18 00:10:27,358 - app.Home - INFO - Página home renderizada exitosamente
 2025-07-18 00:10:27,359 - __main__ - INFO - Aplicación ejecutándose correctamente
+2025-07-18 00:25:10,200 - src.utils.metrics - INFO - Directorio actual: C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 00:25:10,202 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-18 00:25:10,202 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 00:25:10,297 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-18 00:25:10,454 - routes.Route_Ann - INFO - Predicción exitosa: fertilizacion
+2025-07-18 00:25:43,094 - src.utils.metrics - INFO - Directorio actual: C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 00:25:43,095 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-18 00:25:43,095 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 00:25:43,268 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-18 00:25:43,490 - routes.Route_Cnn - INFO - Diagnóstico exitoso para imagen: buena.jpg
+2025-07-18 00:26:04,984 - src.utils.metrics - INFO - Directorio actual: C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 00:26:04,986 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-18 00:26:04,986 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 00:26:07,202 - routes.Route_Rnn - INFO - Archivo procesado exitosamente: dataset1.csv - Filas: 12, Columnas: 5
+2025-07-18 14:26:15,932 - __main__ - INFO - Módulo Home importado exitosamente
+2025-07-18 14:26:15,932 - __main__ - INFO - Archivo config.toml creado/actualizado en: C:\Users\pmari\.streamlit\config.toml
+2025-07-18 14:26:15,932 - src.utils.metrics - INFO - Directorio actual: C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:26:15,932 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-18 14:26:15,932 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:26:15,932 - src.utils.metrics - INFO - Directorio actual: C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:26:15,932 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-18 14:26:15,932 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:26:16,106 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-18 14:26:16,106 - src.utils.metrics - INFO - Directorio actual: C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:26:16,106 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-18 14:26:16,106 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:26:16,234 - app.Home - INFO - Estado de sesión inicializado con página predeterminada
+2025-07-18 14:26:16,234 - app.Home - INFO - Clase Home inicializada exitosamente
+2025-07-18 14:26:16,234 - __main__ - INFO - Menú Home inicializado exitosamente
+2025-07-18 14:26:17,779 - __main__ - INFO - Hilo de API lanzado exitosamente
+2025-07-18 14:26:17,779 - __main__ - INFO - Iniciando servidor API...
+2025-07-18 14:26:17,954 - app.Home - INFO - Página home renderizada exitosamente
+2025-07-18 14:26:17,954 - __main__ - INFO - Aplicación ejecutándose correctamente
+2025-07-18 14:26:18,113 - tensorflow - WARNING - From C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA\.venv\Lib\site-packages\keras\src\backend\common\global_state.py:82: The name tf.reset_default_graph is deprecated. Please use tf.compat.v1.reset_default_graph instead.
+
+2025-07-18 14:26:19,508 - Api - INFO - Aplicación FastAPI creada exitosamente
+2025-07-18 14:26:19,521 - routes.Route_Ann - INFO - Router ANN inicializado correctamente
+2025-07-18 14:26:19,524 - Api - INFO - Router ANN incluido exitosamente
+2025-07-18 14:26:19,524 - routes.Route_Cnn - INFO - Router CNN inicializado correctamente
+2025-07-18 14:26:19,524 - Api - INFO - Router CNN incluido exitosamente
+2025-07-18 14:26:19,524 - routes.Route_Rnn - INFO - Router ANN inicializado correctamente
+2025-07-18 14:26:19,524 - Api - INFO - Router CNN incluido exitosamente
+2025-07-18 14:26:40,903 - __main__ - INFO - Módulo Home importado exitosamente
+2025-07-18 14:26:40,903 - src.utils.metrics - INFO - Directorio actual: C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:26:40,903 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-18 14:26:40,903 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:26:40,903 - src.utils.metrics - INFO - Directorio actual: C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:26:40,903 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-18 14:26:40,903 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:26:41,046 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-18 14:26:41,062 - src.utils.metrics - INFO - Directorio actual: C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:26:41,062 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-18 14:26:41,062 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:26:41,188 - app.Home - INFO - Clase Home inicializada exitosamente
+2025-07-18 14:26:41,188 - __main__ - INFO - Menú Home inicializado exitosamente
+2025-07-18 14:26:41,556 - app.Home - INFO - Página home renderizada exitosamente
+2025-07-18 14:26:41,556 - __main__ - INFO - Aplicación ejecutándose correctamente
+2025-07-18 14:27:03,395 - __main__ - INFO - Módulo Home importado exitosamente
+2025-07-18 14:27:03,395 - src.utils.metrics - INFO - Directorio actual: C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:27:03,395 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-18 14:27:03,395 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:27:03,395 - src.utils.metrics - INFO - Directorio actual: C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:27:03,395 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-18 14:27:03,395 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:27:03,533 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-18 14:27:03,539 - src.utils.metrics - INFO - Directorio actual: C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:27:03,539 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-18 14:27:03,539 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:27:03,696 - app.Home - INFO - Clase Home inicializada exitosamente
+2025-07-18 14:27:03,696 - __main__ - INFO - Menú Home inicializado exitosamente
+2025-07-18 14:27:03,696 - app.Home - INFO - Página home renderizada exitosamente
+2025-07-18 14:27:03,696 - __main__ - INFO - Aplicación ejecutándose correctamente
+2025-07-18 14:27:10,083 - __main__ - INFO - Módulo Home importado exitosamente
+2025-07-18 14:27:10,087 - src.utils.metrics - INFO - Directorio actual: C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:27:10,091 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-18 14:27:10,091 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:27:10,094 - src.utils.metrics - INFO - Directorio actual: C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:27:10,096 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-18 14:27:10,096 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:27:10,277 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-18 14:27:10,293 - src.utils.metrics - INFO - Directorio actual: C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:27:10,293 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-18 14:27:10,293 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:27:10,409 - app.Home - INFO - Clase Home inicializada exitosamente
+2025-07-18 14:27:10,409 - __main__ - INFO - Menú Home inicializado exitosamente
+2025-07-18 14:27:10,420 - app.Home - INFO - Página home renderizada exitosamente
+2025-07-18 14:27:10,420 - __main__ - INFO - Aplicación ejecutándose correctamente
+2025-07-18 14:27:12,344 - __main__ - INFO - Módulo Home importado exitosamente
+2025-07-18 14:27:12,344 - src.utils.metrics - INFO - Directorio actual: C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:27:12,344 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-18 14:27:12,344 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:27:12,360 - src.utils.metrics - INFO - Directorio actual: C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:27:12,360 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-18 14:27:12,360 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:27:12,487 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-18 14:27:12,487 - src.utils.metrics - INFO - Directorio actual: C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:27:12,487 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-18 14:27:12,487 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:27:12,630 - app.Home - INFO - Clase Home inicializada exitosamente
+2025-07-18 14:27:12,630 - __main__ - INFO - Menú Home inicializado exitosamente
+2025-07-18 14:27:12,630 - app.Home - INFO - Página home renderizada exitosamente
+2025-07-18 14:27:12,630 - __main__ - INFO - Aplicación ejecutándose correctamente
+2025-07-18 14:27:15,087 - __main__ - INFO - Módulo Home importado exitosamente
+2025-07-18 14:27:15,087 - src.utils.metrics - INFO - Directorio actual: C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:27:15,087 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-18 14:27:15,087 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:27:15,087 - src.utils.metrics - INFO - Directorio actual: C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:27:15,087 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-18 14:27:15,102 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:27:15,229 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-18 14:27:15,245 - src.utils.metrics - INFO - Directorio actual: C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:27:15,245 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-18 14:27:15,245 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:27:15,388 - app.Home - INFO - Clase Home inicializada exitosamente
+2025-07-18 14:27:15,388 - __main__ - INFO - Menú Home inicializado exitosamente
+2025-07-18 14:27:15,388 - app.Home - INFO - Página home renderizada exitosamente
+2025-07-18 14:27:15,388 - __main__ - INFO - Aplicación ejecutándose correctamente
+2025-07-18 14:27:18,051 - __main__ - INFO - Módulo Home importado exitosamente
+2025-07-18 14:27:18,051 - src.utils.metrics - INFO - Directorio actual: C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:27:18,051 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-18 14:27:18,051 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:27:18,051 - src.utils.metrics - INFO - Directorio actual: C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:27:18,051 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-18 14:27:18,051 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:27:18,098 - __main__ - INFO - Módulo Home importado exitosamente
+2025-07-18 14:27:18,098 - src.utils.metrics - INFO - Directorio actual: C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:27:18,098 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-18 14:27:18,098 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:27:18,098 - src.utils.metrics - INFO - Directorio actual: C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:27:18,098 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-18 14:27:18,114 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:27:18,240 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-18 14:27:18,240 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-18 14:27:18,256 - src.utils.metrics - INFO - Directorio actual: C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:27:18,256 - src.utils.metrics - INFO - Directorio actual: C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:27:18,256 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-18 14:27:18,256 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-18 14:27:18,256 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:27:18,256 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:27:18,465 - app.Home - INFO - Clase Home inicializada exitosamente
+2025-07-18 14:27:18,465 - __main__ - INFO - Menú Home inicializado exitosamente
+2025-07-18 14:27:19,387 - app.Home - INFO - Página home renderizada exitosamente
+2025-07-18 14:27:19,387 - __main__ - INFO - Aplicación ejecutándose correctamente
+2025-07-18 14:28:10,210 - __main__ - INFO - Módulo Home importado exitosamente
+2025-07-18 14:28:10,210 - src.utils.metrics - INFO - Directorio actual: C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:28:10,210 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-18 14:28:10,210 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:28:10,226 - src.utils.metrics - INFO - Directorio actual: C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:28:10,226 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-18 14:28:10,226 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:28:10,373 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-18 14:28:10,384 - src.utils.metrics - INFO - Directorio actual: C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:28:10,384 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-18 14:28:10,384 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:28:10,512 - app.Home - INFO - Clase Home inicializada exitosamente
+2025-07-18 14:28:10,512 - __main__ - INFO - Menú Home inicializado exitosamente
+2025-07-18 14:28:10,528 - app.Home - INFO - Página seleccionada: Modelo CNN
+2025-07-18 14:28:11,227 - __main__ - INFO - Módulo Home importado exitosamente
+2025-07-18 14:28:11,229 - src.utils.metrics - INFO - Directorio actual: C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:28:11,229 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-18 14:28:11,229 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:28:11,231 - src.utils.metrics - INFO - Directorio actual: C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:28:11,231 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-18 14:28:11,231 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:28:11,338 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-18 14:28:11,338 - src.utils.metrics - INFO - Directorio actual: C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:28:11,338 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-18 14:28:11,338 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:28:11,475 - app.Home - INFO - Clase Home inicializada exitosamente
+2025-07-18 14:28:11,482 - __main__ - INFO - Menú Home inicializado exitosamente
+2025-07-18 14:28:11,487 - app.Home - INFO - Página home renderizada exitosamente
+2025-07-18 14:28:11,487 - __main__ - INFO - Aplicación ejecutándose correctamente
+2025-07-18 14:28:58,458 - __main__ - INFO - Módulo Home importado exitosamente
+2025-07-18 14:28:58,466 - src.utils.metrics - INFO - Directorio actual: C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:28:58,466 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-18 14:28:58,466 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:28:58,469 - src.utils.metrics - INFO - Directorio actual: C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:28:58,469 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-18 14:28:58,472 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:28:58,677 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-18 14:28:58,693 - src.utils.metrics - INFO - Directorio actual: C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:28:58,693 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-18 14:28:58,693 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:28:58,814 - app.Home - INFO - Clase Home inicializada exitosamente
+2025-07-18 14:28:58,814 - __main__ - INFO - Menú Home inicializado exitosamente
+2025-07-18 14:28:58,932 - app.Home - INFO - Página home renderizada exitosamente
+2025-07-18 14:28:58,932 - __main__ - INFO - Aplicación ejecutándose correctamente
+2025-07-18 14:29:06,873 - __main__ - INFO - Módulo Home importado exitosamente
+2025-07-18 14:29:06,873 - src.utils.metrics - INFO - Directorio actual: C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:29:06,873 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-18 14:29:06,873 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:29:06,873 - src.utils.metrics - INFO - Directorio actual: C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:29:06,873 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-18 14:29:06,873 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:29:06,968 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-18 14:29:06,984 - src.utils.metrics - INFO - Directorio actual: C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:29:06,984 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-18 14:29:06,984 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:29:07,100 - app.Home - INFO - Clase Home inicializada exitosamente
+2025-07-18 14:29:07,100 - __main__ - INFO - Menú Home inicializado exitosamente
+2025-07-18 14:29:07,117 - src.utils.metrics - INFO - Directorio actual: C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:29:07,117 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-18 14:29:07,117 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:29:07,352 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-18 14:29:08,113 - app.Home - INFO - Página home renderizada exitosamente
+2025-07-18 14:29:08,113 - __main__ - INFO - Aplicación ejecutándose correctamente
+2025-07-18 14:29:56,818 - __main__ - INFO - Módulo Home importado exitosamente
+2025-07-18 14:29:56,828 - src.utils.metrics - INFO - Directorio actual: C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:29:56,830 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-18 14:29:56,830 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:29:56,832 - src.utils.metrics - INFO - Directorio actual: C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:29:56,837 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-18 14:29:56,837 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:29:57,014 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-18 14:29:57,029 - src.utils.metrics - INFO - Directorio actual: C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:29:57,031 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-18 14:29:57,031 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:29:57,157 - app.Home - INFO - Clase Home inicializada exitosamente
+2025-07-18 14:29:57,157 - __main__ - INFO - Menú Home inicializado exitosamente
+2025-07-18 14:29:57,176 - app.Home - INFO - Página home renderizada exitosamente
+2025-07-18 14:29:57,176 - __main__ - INFO - Aplicación ejecutándose correctamente
+2025-07-18 14:30:02,514 - __main__ - INFO - Módulo Home importado exitosamente
+2025-07-18 14:30:02,514 - src.utils.metrics - INFO - Directorio actual: C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:30:02,526 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-18 14:30:02,526 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:30:02,526 - src.utils.metrics - INFO - Directorio actual: C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:30:02,526 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-18 14:30:02,526 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:30:02,669 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-18 14:30:02,685 - src.utils.metrics - INFO - Directorio actual: C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:30:02,685 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-18 14:30:02,685 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:30:02,812 - app.Home - INFO - Clase Home inicializada exitosamente
+2025-07-18 14:30:02,812 - __main__ - INFO - Menú Home inicializado exitosamente
+2025-07-18 14:30:02,812 - src.utils.metrics - INFO - Directorio actual: C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:30:02,812 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-18 14:30:02,812 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:30:03,009 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-18 14:30:03,764 - app.Home - INFO - Página home renderizada exitosamente
+2025-07-18 14:30:03,764 - __main__ - INFO - Aplicación ejecutándose correctamente
+2025-07-18 14:30:27,839 - __main__ - INFO - Módulo Home importado exitosamente
+2025-07-18 14:30:27,839 - src.utils.metrics - INFO - Directorio actual: C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:30:27,855 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-18 14:30:27,855 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:30:27,855 - src.utils.metrics - INFO - Directorio actual: C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:30:27,857 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-18 14:30:27,857 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:30:27,950 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-18 14:30:27,966 - src.utils.metrics - INFO - Directorio actual: C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:30:27,966 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-18 14:30:27,966 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:30:28,060 - app.Home - INFO - Clase Home inicializada exitosamente
+2025-07-18 14:30:28,060 - __main__ - INFO - Menú Home inicializado exitosamente
+2025-07-18 14:30:28,060 - app.Home - INFO - Página home renderizada exitosamente
+2025-07-18 14:30:28,060 - __main__ - INFO - Aplicación ejecutándose correctamente
+2025-07-18 14:30:32,055 - __main__ - INFO - Módulo Home importado exitosamente
+2025-07-18 14:30:32,055 - src.utils.metrics - INFO - Directorio actual: C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:30:32,055 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-18 14:30:32,055 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:30:32,055 - src.utils.metrics - INFO - Directorio actual: C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:30:32,069 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-18 14:30:32,069 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:30:32,183 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-18 14:30:32,199 - src.utils.metrics - INFO - Directorio actual: C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:30:32,199 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-18 14:30:32,199 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:30:32,325 - app.Home - INFO - Clase Home inicializada exitosamente
+2025-07-18 14:30:32,325 - __main__ - INFO - Menú Home inicializado exitosamente
+2025-07-18 14:30:32,341 - src.utils.metrics - INFO - Directorio actual: C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:30:32,341 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-18 14:30:32,341 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:30:32,546 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-18 14:30:32,710 - tensorflow - WARNING - 5 out of the last 5 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x000002020A304B80> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+2025-07-18 14:30:33,255 - app.Home - INFO - Página home renderizada exitosamente
+2025-07-18 14:30:33,255 - __main__ - INFO - Aplicación ejecutándose correctamente
+2025-07-18 14:31:36,537 - __main__ - INFO - Módulo Home importado exitosamente
+2025-07-18 14:31:36,537 - src.utils.metrics - INFO - Directorio actual: C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:31:36,537 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-18 14:31:36,537 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:31:36,537 - src.utils.metrics - INFO - Directorio actual: C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:31:36,537 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-18 14:31:36,537 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:31:36,680 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-18 14:31:36,695 - src.utils.metrics - INFO - Directorio actual: C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:31:36,695 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-18 14:31:36,695 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:31:36,823 - app.Home - INFO - Clase Home inicializada exitosamente
+2025-07-18 14:31:36,823 - __main__ - INFO - Menú Home inicializado exitosamente
+2025-07-18 14:31:36,823 - app.Home - INFO - Página seleccionada: Modelo ANN
+2025-07-18 14:31:37,489 - __main__ - INFO - Módulo Home importado exitosamente
+2025-07-18 14:31:37,492 - src.utils.metrics - INFO - Directorio actual: C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:31:37,492 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-18 14:31:37,492 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:31:37,492 - src.utils.metrics - INFO - Directorio actual: C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:31:37,492 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-18 14:31:37,492 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:31:37,571 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-18 14:31:37,587 - src.utils.metrics - INFO - Directorio actual: C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:31:37,587 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-18 14:31:37,587 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:31:37,715 - app.Home - INFO - Clase Home inicializada exitosamente
+2025-07-18 14:31:37,715 - __main__ - INFO - Menú Home inicializado exitosamente
+2025-07-18 14:31:37,731 - app.Home - INFO - Página home renderizada exitosamente
+2025-07-18 14:31:37,731 - __main__ - INFO - Aplicación ejecutándose correctamente
+2025-07-18 14:31:52,444 - __main__ - INFO - Módulo Home importado exitosamente
+2025-07-18 14:31:52,444 - src.utils.metrics - INFO - Directorio actual: C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:31:52,444 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-18 14:31:52,444 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:31:52,444 - src.utils.metrics - INFO - Directorio actual: C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:31:52,458 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-18 14:31:52,459 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:31:52,572 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-18 14:31:52,595 - src.utils.metrics - INFO - Directorio actual: C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:31:52,595 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-18 14:31:52,595 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:31:52,715 - app.Home - INFO - Clase Home inicializada exitosamente
+2025-07-18 14:31:52,715 - __main__ - INFO - Menú Home inicializado exitosamente
+2025-07-18 14:31:52,842 - tensorflow - WARNING - 6 out of the last 6 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x000002020A2239C0> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+2025-07-18 14:31:52,890 - app.Home - INFO - Página home renderizada exitosamente
+2025-07-18 14:31:52,890 - __main__ - INFO - Aplicación ejecutándose correctamente
+2025-07-18 14:32:33,727 - __main__ - INFO - Módulo Home importado exitosamente
+2025-07-18 14:32:33,727 - src.utils.metrics - INFO - Directorio actual: C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:32:33,727 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-18 14:32:33,727 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:32:33,727 - src.utils.metrics - INFO - Directorio actual: C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:32:33,727 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-18 14:32:33,727 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:32:33,906 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-18 14:32:33,913 - src.utils.metrics - INFO - Directorio actual: C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:32:33,913 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-18 14:32:33,913 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:32:34,040 - app.Home - INFO - Clase Home inicializada exitosamente
+2025-07-18 14:32:34,056 - __main__ - INFO - Menú Home inicializado exitosamente
+2025-07-18 14:32:34,056 - app.Home - INFO - Página home renderizada exitosamente
+2025-07-18 14:32:34,056 - __main__ - INFO - Aplicación ejecutándose correctamente
+2025-07-18 14:32:36,390 - __main__ - INFO - Módulo Home importado exitosamente
+2025-07-18 14:32:36,390 - src.utils.metrics - INFO - Directorio actual: C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:32:36,403 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-18 14:32:36,403 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:32:36,403 - src.utils.metrics - INFO - Directorio actual: C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:32:36,405 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-18 14:32:36,407 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:32:36,580 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-18 14:32:36,595 - src.utils.metrics - INFO - Directorio actual: C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:32:36,595 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-18 14:32:36,595 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:32:36,723 - app.Home - INFO - Clase Home inicializada exitosamente
+2025-07-18 14:32:36,723 - __main__ - INFO - Menú Home inicializado exitosamente
+2025-07-18 14:32:36,723 - app.Home - INFO - Página home renderizada exitosamente
+2025-07-18 14:32:36,723 - __main__ - INFO - Aplicación ejecutándose correctamente
+2025-07-18 14:32:39,963 - __main__ - INFO - Módulo Home importado exitosamente
+2025-07-18 14:32:39,963 - src.utils.metrics - INFO - Directorio actual: C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:32:39,963 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-18 14:32:39,963 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:32:39,963 - src.utils.metrics - INFO - Directorio actual: C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:32:39,963 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-18 14:32:39,963 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:32:40,094 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-18 14:32:40,117 - src.utils.metrics - INFO - Directorio actual: C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:32:40,117 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-18 14:32:40,117 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:32:40,265 - app.Home - INFO - Clase Home inicializada exitosamente
+2025-07-18 14:32:40,265 - __main__ - INFO - Menú Home inicializado exitosamente
+2025-07-18 14:32:40,265 - app.Home - INFO - Página home renderizada exitosamente
+2025-07-18 14:32:40,265 - __main__ - INFO - Aplicación ejecutándose correctamente
+2025-07-18 14:32:42,689 - __main__ - INFO - Módulo Home importado exitosamente
+2025-07-18 14:32:42,689 - src.utils.metrics - INFO - Directorio actual: C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:32:42,689 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-18 14:32:42,689 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:32:42,689 - src.utils.metrics - INFO - Directorio actual: C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:32:42,689 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-18 14:32:42,689 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:32:42,844 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-18 14:32:42,844 - src.utils.metrics - INFO - Directorio actual: C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:32:42,860 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-18 14:32:42,860 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:32:43,003 - app.Home - INFO - Clase Home inicializada exitosamente
+2025-07-18 14:32:43,003 - __main__ - INFO - Menú Home inicializado exitosamente
+2025-07-18 14:32:43,003 - app.Home - INFO - Página home renderizada exitosamente
+2025-07-18 14:32:43,003 - __main__ - INFO - Aplicación ejecutándose correctamente
+2025-07-18 14:32:46,787 - __main__ - INFO - Módulo Home importado exitosamente
+2025-07-18 14:32:46,803 - src.utils.metrics - INFO - Directorio actual: C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:32:46,806 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-18 14:32:46,806 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:32:46,806 - src.utils.metrics - INFO - Directorio actual: C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:32:46,810 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-18 14:32:46,810 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:32:46,866 - __main__ - INFO - Módulo Home importado exitosamente
+2025-07-18 14:32:46,866 - src.utils.metrics - INFO - Directorio actual: C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:32:46,866 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-18 14:32:46,882 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:32:46,882 - src.utils.metrics - INFO - Directorio actual: C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:32:46,882 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-18 14:32:46,882 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:32:46,992 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-18 14:32:46,992 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-18 14:32:47,017 - src.utils.metrics - INFO - Directorio actual: C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:32:47,017 - src.utils.metrics - INFO - Directorio actual: C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:32:47,017 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-18 14:32:47,017 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:32:47,017 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-18 14:32:47,017 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:32:47,549 - app.Home - INFO - Clase Home inicializada exitosamente
+2025-07-18 14:32:47,549 - __main__ - INFO - Menú Home inicializado exitosamente
+2025-07-18 14:32:48,107 - app.Home - INFO - Página home renderizada exitosamente
+2025-07-18 14:32:48,107 - __main__ - INFO - Aplicación ejecutándose correctamente
+2025-07-18 14:36:02,249 - __main__ - INFO - Módulo Home importado exitosamente
+2025-07-18 14:36:02,249 - src.utils.metrics - INFO - Directorio actual: C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:36:02,249 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-18 14:36:02,249 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:36:02,249 - src.utils.metrics - INFO - Directorio actual: C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:36:02,249 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-18 14:36:02,249 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:36:02,336 - __main__ - INFO - Módulo Home importado exitosamente
+2025-07-18 14:36:02,336 - src.utils.metrics - INFO - Directorio actual: C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:36:02,340 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-18 14:36:02,340 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:36:02,340 - src.utils.metrics - INFO - Directorio actual: C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:36:02,340 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-18 14:36:02,346 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:36:02,388 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-18 14:36:02,404 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-18 14:36:02,404 - src.utils.metrics - INFO - Directorio actual: C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:36:02,404 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-18 14:36:02,404 - src.utils.metrics - INFO - Directorio actual: C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:36:02,404 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:36:02,404 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-18 14:36:02,404 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:36:02,563 - app.Home - INFO - Clase Home inicializada exitosamente
+2025-07-18 14:36:02,563 - __main__ - INFO - Menú Home inicializado exitosamente
+2025-07-18 14:36:03,010 - app.Home - INFO - Página home renderizada exitosamente
+2025-07-18 14:36:03,010 - __main__ - INFO - Aplicación ejecutándose correctamente
+2025-07-18 14:36:07,863 - __main__ - INFO - Módulo Home importado exitosamente
+2025-07-18 14:36:07,874 - src.utils.metrics - INFO - Directorio actual: C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:36:07,876 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-18 14:36:07,876 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:36:07,878 - src.utils.metrics - INFO - Directorio actual: C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:36:07,880 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-18 14:36:07,881 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:36:08,002 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-18 14:36:08,018 - src.utils.metrics - INFO - Directorio actual: C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:36:08,018 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-18 14:36:08,018 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:36:08,145 - app.Home - INFO - Clase Home inicializada exitosamente
+2025-07-18 14:36:08,158 - __main__ - INFO - Menú Home inicializado exitosamente
+2025-07-18 14:36:08,345 - app.Home - INFO - Página home renderizada exitosamente
+2025-07-18 14:36:08,345 - __main__ - INFO - Aplicación ejecutándose correctamente
+2025-07-18 14:38:48,720 - __main__ - INFO - Módulo Home importado exitosamente
+2025-07-18 14:38:48,720 - src.utils.metrics - INFO - Directorio actual: C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:38:48,720 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-18 14:38:48,720 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:38:48,736 - src.utils.metrics - INFO - Directorio actual: C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:38:48,738 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-18 14:38:48,739 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:38:48,876 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-18 14:38:48,879 - src.utils.metrics - INFO - Directorio actual: C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:38:48,879 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-18 14:38:48,879 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:38:49,015 - app.Home - INFO - Clase Home inicializada exitosamente
+2025-07-18 14:38:49,015 - __main__ - INFO - Menú Home inicializado exitosamente
+2025-07-18 14:38:49,015 - app.Home - INFO - Página seleccionada: Modelo RNN
+2025-07-18 14:38:49,767 - __main__ - INFO - Módulo Home importado exitosamente
+2025-07-18 14:38:49,767 - src.utils.metrics - INFO - Directorio actual: C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:38:49,767 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-18 14:38:49,767 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:38:49,767 - src.utils.metrics - INFO - Directorio actual: C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:38:49,777 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-18 14:38:49,777 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:38:49,847 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-18 14:38:49,863 - src.utils.metrics - INFO - Directorio actual: C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:38:49,863 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-18 14:38:49,863 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:38:50,039 - app.Home - INFO - Clase Home inicializada exitosamente
+2025-07-18 14:38:50,039 - __main__ - INFO - Menú Home inicializado exitosamente
+2025-07-18 14:38:50,063 - app.Home - INFO - Página home renderizada exitosamente
+2025-07-18 14:38:50,065 - __main__ - INFO - Aplicación ejecutándose correctamente
+2025-07-18 14:39:05,724 - __main__ - INFO - Módulo Home importado exitosamente
+2025-07-18 14:39:05,729 - src.utils.metrics - INFO - Directorio actual: C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:39:05,729 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-18 14:39:05,729 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:39:05,731 - src.utils.metrics - INFO - Directorio actual: C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:39:05,731 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-18 14:39:05,733 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:39:05,872 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-18 14:39:05,894 - src.utils.metrics - INFO - Directorio actual: C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:39:05,894 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-18 14:39:05,894 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:39:06,037 - app.Home - INFO - Clase Home inicializada exitosamente
+2025-07-18 14:39:06,037 - __main__ - INFO - Menú Home inicializado exitosamente
+2025-07-18 14:39:06,069 - app.Home - INFO - Página home renderizada exitosamente
+2025-07-18 14:39:06,069 - __main__ - INFO - Aplicación ejecutándose correctamente
+2025-07-18 14:39:07,899 - __main__ - INFO - Módulo Home importado exitosamente
+2025-07-18 14:39:07,899 - src.utils.metrics - INFO - Directorio actual: C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:39:07,899 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-18 14:39:07,899 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:39:07,914 - src.utils.metrics - INFO - Directorio actual: C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:39:07,914 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-18 14:39:07,914 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:39:07,994 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-18 14:39:08,009 - src.utils.metrics - INFO - Directorio actual: C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:39:08,010 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-18 14:39:08,010 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:39:08,094 - app.Home - INFO - Clase Home inicializada exitosamente
+2025-07-18 14:39:08,094 - __main__ - INFO - Menú Home inicializado exitosamente
+2025-07-18 14:39:10,202 - app.Home - INFO - Página home renderizada exitosamente
+2025-07-18 14:39:10,202 - __main__ - INFO - Aplicación ejecutándose correctamente
+2025-07-18 14:39:58,494 - src.utils.metrics - INFO - Directorio actual: C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:39:58,494 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-18 14:39:58,494 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:39:58,606 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-18 14:39:58,773 - routes.Route_Ann - INFO - Predicción exitosa: fertilizacion
+2025-07-18 14:40:10,102 - src.utils.metrics - INFO - Directorio actual: C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:40:10,103 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-18 14:40:10,103 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:40:10,142 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-18 14:40:10,271 - routes.Route_Ann - INFO - Predicción exitosa: fertilizacion
+2025-07-18 14:42:35,372 - src.utils.metrics - INFO - Directorio actual: C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:42:35,373 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-18 14:42:35,373 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:42:35,570 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-18 14:42:35,744 - routes.Route_Cnn - INFO - Diagnóstico exitoso para imagen: 49e55f8e-4d44-452c-8e59-d4c4f0ae1085___RS_LB 4333.JPG
+2025-07-18 14:43:16,205 - src.utils.metrics - INFO - Directorio actual: C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:43:16,206 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-18 14:43:16,206 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:43:16,356 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-18 14:43:16,546 - routes.Route_Cnn - INFO - Diagnóstico exitoso para imagen: 683b04ad-7941-4819-9965-ba32c725eb22___RS_HL 1861.JPG
+2025-07-18 14:56:27,467 - __main__ - INFO - Módulo Home importado exitosamente
+2025-07-18 14:56:27,473 - __main__ - INFO - Archivo config.toml creado/actualizado en: C:\Users\pmari\.streamlit\config.toml
+2025-07-18 14:56:27,475 - src.utils.metrics - INFO - Directorio actual: C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:56:27,476 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-18 14:56:27,476 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:56:27,477 - src.utils.metrics - INFO - Directorio actual: C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:56:27,478 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-18 14:56:27,478 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:56:27,623 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-18 14:56:27,629 - src.utils.metrics - INFO - Directorio actual: C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:56:27,630 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-18 14:56:27,630 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:56:27,781 - app.Home - INFO - Estado de sesión inicializado con página predeterminada
+2025-07-18 14:56:27,782 - app.Home - INFO - Clase Home inicializada exitosamente
+2025-07-18 14:56:27,782 - __main__ - INFO - Menú Home inicializado exitosamente
+2025-07-18 14:56:29,590 - __main__ - INFO - Hilo de API lanzado exitosamente
+2025-07-18 14:56:29,590 - __main__ - INFO - Iniciando servidor API...
+2025-07-18 14:56:29,788 - app.Home - INFO - Página home renderizada exitosamente
+2025-07-18 14:56:29,790 - __main__ - INFO - Aplicación ejecutándose correctamente
+2025-07-18 14:56:30,004 - tensorflow - WARNING - From C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA\.venv\Lib\site-packages\keras\src\backend\common\global_state.py:82: The name tf.reset_default_graph is deprecated. Please use tf.compat.v1.reset_default_graph instead.
+
+2025-07-18 14:56:30,840 - Api - INFO - Aplicación FastAPI creada exitosamente
+2025-07-18 14:56:30,843 - routes.Route_Ann - INFO - Router ANN inicializado correctamente
+2025-07-18 14:56:30,845 - Api - INFO - Router ANN incluido exitosamente
+2025-07-18 14:56:30,847 - routes.Route_Cnn - INFO - Router CNN inicializado correctamente
+2025-07-18 14:56:30,850 - Api - INFO - Router CNN incluido exitosamente
+2025-07-18 14:56:30,852 - routes.Route_Rnn - INFO - Router ANN inicializado correctamente
+2025-07-18 14:56:30,853 - Api - INFO - Router CNN incluido exitosamente
+2025-07-18 14:56:44,278 - __main__ - INFO - Módulo Home importado exitosamente
+2025-07-18 14:56:44,281 - src.utils.metrics - INFO - Directorio actual: C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:56:44,282 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-18 14:56:44,283 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:56:44,284 - src.utils.metrics - INFO - Directorio actual: C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:56:44,286 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-18 14:56:44,286 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:56:44,454 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-18 14:56:44,470 - src.utils.metrics - INFO - Directorio actual: C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:56:44,470 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-18 14:56:44,471 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:56:44,604 - app.Home - INFO - Clase Home inicializada exitosamente
+2025-07-18 14:56:44,604 - __main__ - INFO - Menú Home inicializado exitosamente
+2025-07-18 14:56:44,619 - app.Home - INFO - Página home renderizada exitosamente
+2025-07-18 14:56:44,619 - __main__ - INFO - Aplicación ejecutándose correctamente
+2025-07-18 14:56:46,223 - __main__ - INFO - Módulo Home importado exitosamente
+2025-07-18 14:56:46,226 - src.utils.metrics - INFO - Directorio actual: C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:56:46,227 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-18 14:56:46,228 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:56:46,230 - src.utils.metrics - INFO - Directorio actual: C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:56:46,231 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-18 14:56:46,232 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:56:46,420 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-18 14:56:46,444 - src.utils.metrics - INFO - Directorio actual: C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:56:46,445 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-18 14:56:46,445 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:56:46,586 - app.Home - INFO - Clase Home inicializada exitosamente
+2025-07-18 14:56:46,587 - __main__ - INFO - Menú Home inicializado exitosamente
+2025-07-18 14:56:46,597 - app.Home - INFO - Página home renderizada exitosamente
+2025-07-18 14:56:46,598 - __main__ - INFO - Aplicación ejecutándose correctamente
+2025-07-18 14:56:48,024 - __main__ - INFO - Módulo Home importado exitosamente
+2025-07-18 14:56:48,028 - src.utils.metrics - INFO - Directorio actual: C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:56:48,030 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-18 14:56:48,030 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:56:48,031 - src.utils.metrics - INFO - Directorio actual: C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:56:48,033 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-18 14:56:48,034 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:56:48,196 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-18 14:56:48,208 - src.utils.metrics - INFO - Directorio actual: C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:56:48,210 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-18 14:56:48,210 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:56:48,361 - app.Home - INFO - Clase Home inicializada exitosamente
+2025-07-18 14:56:48,361 - __main__ - INFO - Menú Home inicializado exitosamente
+2025-07-18 14:56:48,374 - app.Home - INFO - Página home renderizada exitosamente
+2025-07-18 14:56:48,375 - __main__ - INFO - Aplicación ejecutándose correctamente
+2025-07-18 14:56:50,050 - __main__ - INFO - Módulo Home importado exitosamente
+2025-07-18 14:56:50,052 - src.utils.metrics - INFO - Directorio actual: C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:56:50,054 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-18 14:56:50,056 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:56:50,058 - src.utils.metrics - INFO - Directorio actual: C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:56:50,060 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-18 14:56:50,060 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:56:50,225 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-18 14:56:50,239 - src.utils.metrics - INFO - Directorio actual: C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:56:50,240 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-18 14:56:50,242 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:56:50,382 - app.Home - INFO - Clase Home inicializada exitosamente
+2025-07-18 14:56:50,383 - __main__ - INFO - Menú Home inicializado exitosamente
+2025-07-18 14:56:50,401 - app.Home - INFO - Página home renderizada exitosamente
+2025-07-18 14:56:50,402 - __main__ - INFO - Aplicación ejecutándose correctamente
+2025-07-18 14:56:52,383 - __main__ - INFO - Módulo Home importado exitosamente
+2025-07-18 14:56:52,385 - src.utils.metrics - INFO - Directorio actual: C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:56:52,386 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-18 14:56:52,386 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:56:52,387 - src.utils.metrics - INFO - Directorio actual: C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:56:52,388 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-18 14:56:52,388 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:56:52,495 - __main__ - INFO - Módulo Home importado exitosamente
+2025-07-18 14:56:52,499 - src.utils.metrics - INFO - Directorio actual: C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:56:52,504 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-18 14:56:52,504 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:56:52,507 - src.utils.metrics - INFO - Directorio actual: C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:56:52,511 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-18 14:56:52,512 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:56:52,574 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-18 14:56:52,605 - src.utils.metrics - INFO - Directorio actual: C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:56:52,609 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-18 14:56:52,610 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:56:52,620 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-18 14:56:52,634 - src.utils.metrics - INFO - Directorio actual: C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:56:52,636 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-18 14:56:52,640 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:56:52,936 - app.Home - INFO - Clase Home inicializada exitosamente
+2025-07-18 14:56:53,265 - __main__ - INFO - Menú Home inicializado exitosamente
+2025-07-18 14:56:53,996 - app.Home - INFO - Página home renderizada exitosamente
+2025-07-18 14:56:53,996 - __main__ - INFO - Aplicación ejecutándose correctamente
+2025-07-18 14:58:01,525 - __main__ - INFO - Módulo Home importado exitosamente
+2025-07-18 14:58:01,528 - src.utils.metrics - INFO - Directorio actual: C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:58:01,529 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-18 14:58:01,529 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:58:01,530 - src.utils.metrics - INFO - Directorio actual: C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:58:01,532 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-18 14:58:01,532 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:58:01,723 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-18 14:58:01,736 - src.utils.metrics - INFO - Directorio actual: C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:58:01,737 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-18 14:58:01,737 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\pmari\OneDrive\Para Revisar\Documentos\GitKraken\AgroIAPrincipal\AgroIA
+2025-07-18 14:58:01,877 - app.Home - INFO - Clase Home inicializada exitosamente
+2025-07-18 14:58:01,877 - __main__ - INFO - Menú Home inicializado exitosamente
+2025-07-18 14:58:02,084 - app.Home - INFO - Página home renderizada exitosamente
+2025-07-18 14:58:02,084 - __main__ - INFO - Aplicación ejecutándose correctamente
