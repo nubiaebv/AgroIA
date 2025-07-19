@@ -10,13 +10,13 @@ import os
 class ann:
     def __init__(self, ruta_raiz):
         try:
-            self.model = load_model(os.path.join(ruta_raiz, 'models/modelo_pred_cultivopapa.h5'))
+            self.model = load_model(os.path.join(ruta_raiz, 'models/modelo_pred_cultivopapa.keras'))
             # Inicializar el escalador
             self.scaler  = joblib.load(os.path.join(ruta_raiz,'models/scaler_ANN.pkl'))
             self.is_fitted = False
         except FileNotFoundError:
             raise FileNotFoundError(
-                f"No se encontró el archivo del modelo en la ruta: {os.path.join(ruta_raiz, 'models/modelo_pred_cultivopapa.h5')}")
+                f"No se encontró el archivo del modelo en la ruta: {os.path.join(ruta_raiz, 'models/modelo_pred_cultivopapa.keras')}")
         except Exception as e:
             raise Exception(f"Error al cargar el modelo: {str(e)}")
 

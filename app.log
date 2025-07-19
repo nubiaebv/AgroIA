@@ -3552,3 +3552,321 @@ TypeError: Route_Ann.convertir_numpy_a_python() takes 1 positional argument but 
 2025-07-18 17:49:50,813 - __main__ - INFO - Menú Home inicializado exitosamente
 2025-07-18 17:49:51,310 - app.Home - INFO - Página home renderizada exitosamente
 2025-07-18 17:49:51,311 - __main__ - INFO - Aplicación ejecutándose correctamente
+2025-07-19 10:25:00,692 - __main__ - INFO - Módulo Home importado exitosamente
+2025-07-19 10:25:00,700 - __main__ - INFO - Archivo config.toml creado/actualizado en: C:\Users\ale23\.streamlit\config.toml
+2025-07-19 10:25:00,700 - src.utils.metrics - INFO - Directorio actual: C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-19 10:25:00,708 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-19 10:25:00,709 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-19 10:25:00,709 - src.utils.metrics - INFO - Directorio actual: C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-19 10:25:00,709 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-19 10:25:00,709 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-19 10:25:01,152 - src.utils.metrics - INFO - Directorio actual: C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-19 10:25:01,152 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-19 10:25:01,160 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-19 10:25:01,465 - app.Home - INFO - Estado de sesión inicializado con página predeterminada
+2025-07-19 10:25:01,465 - app.Home - INFO - Clase Home inicializada exitosamente
+2025-07-19 10:25:01,467 - __main__ - INFO - Menú Home inicializado exitosamente
+2025-07-19 10:25:04,754 - __main__ - INFO - Hilo de API lanzado exitosamente
+2025-07-19 10:25:04,754 - __main__ - INFO - Iniciando servidor API...
+2025-07-19 10:25:05,294 - app.Home - INFO - Página home renderizada exitosamente
+2025-07-19 10:25:05,296 - __main__ - INFO - Aplicación ejecutándose correctamente
+2025-07-19 10:25:05,686 - tensorflow - WARNING - From C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA\.venv\Lib\site-packages\keras\src\backend\common\global_state.py:82: The name tf.reset_default_graph is deprecated. Please use tf.compat.v1.reset_default_graph instead.
+
+2025-07-19 10:25:08,572 - Api - INFO - Aplicación FastAPI creada exitosamente
+2025-07-19 10:25:08,578 - routes.Route_Ann - INFO - Router ANN inicializado correctamente
+2025-07-19 10:25:08,587 - Api - INFO - Router ANN incluido exitosamente
+2025-07-19 10:25:08,595 - routes.Route_Cnn - INFO - Router CNN inicializado correctamente
+2025-07-19 10:25:08,603 - Api - INFO - Router CNN incluido exitosamente
+2025-07-19 10:25:08,611 - routes.Route_Rnn - INFO - Router ANN inicializado correctamente
+2025-07-19 10:25:08,611 - Api - INFO - Router CNN incluido exitosamente
+2025-07-19 10:26:07,849 - __main__ - INFO - Módulo Home importado exitosamente
+2025-07-19 10:26:07,849 - src.utils.metrics - INFO - Directorio actual: C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-19 10:26:07,849 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-19 10:26:07,849 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-19 10:26:07,857 - src.utils.metrics - INFO - Directorio actual: C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-19 10:26:07,857 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-19 10:26:07,857 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-19 10:26:08,195 - src.utils.metrics - INFO - Directorio actual: C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-19 10:26:08,196 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-19 10:26:08,204 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-19 10:26:08,527 - app.Home - INFO - Clase Home inicializada exitosamente
+2025-07-19 10:26:08,527 - __main__ - INFO - Menú Home inicializado exitosamente
+2025-07-19 10:26:08,544 - app.Home - ERROR - Error inesperado al renderizar página: All numerical arguments must be of the same type.
+`value` has str type.
+`max_value` has int type.
+2025-07-19 10:26:08,551 - app.Home - INFO - Página home renderizada exitosamente
+2025-07-19 10:26:08,551 - __main__ - INFO - Aplicación ejecutándose correctamente
+2025-07-19 10:26:31,187 - __main__ - INFO - Módulo Home importado exitosamente
+2025-07-19 10:26:31,198 - __main__ - INFO - Archivo config.toml creado/actualizado en: C:\Users\ale23\.streamlit\config.toml
+2025-07-19 10:26:31,202 - src.utils.metrics - INFO - Directorio actual: C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-19 10:26:31,202 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-19 10:26:31,207 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-19 10:26:31,212 - src.utils.metrics - INFO - Directorio actual: C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-19 10:26:31,212 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-19 10:26:31,212 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-19 10:26:31,648 - src.utils.metrics - INFO - Directorio actual: C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-19 10:26:31,648 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-19 10:26:31,655 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-19 10:26:31,958 - app.Home - INFO - Estado de sesión inicializado con página predeterminada
+2025-07-19 10:26:31,958 - app.Home - INFO - Clase Home inicializada exitosamente
+2025-07-19 10:26:31,963 - __main__ - INFO - Menú Home inicializado exitosamente
+2025-07-19 10:26:35,121 - __main__ - INFO - Hilo de API lanzado exitosamente
+2025-07-19 10:26:35,130 - __main__ - INFO - Iniciando servidor API...
+2025-07-19 10:26:35,636 - app.Home - ERROR - Error inesperado al renderizar página: All numerical arguments must be of the same type.
+`value` has str type.
+`max_value` has int type.
+2025-07-19 10:26:35,662 - app.Home - INFO - Página home renderizada exitosamente
+2025-07-19 10:26:35,662 - __main__ - INFO - Aplicación ejecutándose correctamente
+2025-07-19 10:26:36,003 - tensorflow - WARNING - From C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA\.venv\Lib\site-packages\keras\src\backend\common\global_state.py:82: The name tf.reset_default_graph is deprecated. Please use tf.compat.v1.reset_default_graph instead.
+
+2025-07-19 10:26:38,001 - Api - INFO - Aplicación FastAPI creada exitosamente
+2025-07-19 10:26:38,016 - routes.Route_Ann - INFO - Router ANN inicializado correctamente
+2025-07-19 10:26:38,024 - Api - INFO - Router ANN incluido exitosamente
+2025-07-19 10:26:38,026 - routes.Route_Cnn - INFO - Router CNN inicializado correctamente
+2025-07-19 10:26:38,035 - Api - INFO - Router CNN incluido exitosamente
+2025-07-19 10:26:38,043 - routes.Route_Rnn - INFO - Router ANN inicializado correctamente
+2025-07-19 10:26:38,051 - Api - INFO - Router CNN incluido exitosamente
+2025-07-19 10:26:39,207 - __main__ - INFO - Módulo Home importado exitosamente
+2025-07-19 10:26:39,207 - src.utils.metrics - INFO - Directorio actual: C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-19 10:26:39,216 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-19 10:26:39,216 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-19 10:26:39,216 - src.utils.metrics - INFO - Directorio actual: C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-19 10:26:39,216 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-19 10:26:39,224 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-19 10:26:39,489 - src.utils.metrics - INFO - Directorio actual: C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-19 10:26:39,564 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-19 10:26:39,564 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-19 10:26:39,872 - app.Home - INFO - Clase Home inicializada exitosamente
+2025-07-19 10:26:39,872 - __main__ - INFO - Menú Home inicializado exitosamente
+2025-07-19 10:26:39,880 - app.Home - INFO - Página seleccionada: Modelo ANN
+2025-07-19 10:26:40,438 - __main__ - INFO - Módulo Home importado exitosamente
+2025-07-19 10:26:40,446 - src.utils.metrics - INFO - Directorio actual: C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-19 10:26:40,446 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-19 10:26:40,446 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-19 10:26:40,446 - src.utils.metrics - INFO - Directorio actual: C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-19 10:26:40,446 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-19 10:26:40,446 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-19 10:26:40,662 - src.utils.metrics - INFO - Directorio actual: C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-19 10:26:40,662 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-19 10:26:40,670 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-19 10:26:40,962 - app.Home - INFO - Clase Home inicializada exitosamente
+2025-07-19 10:26:40,962 - __main__ - INFO - Menú Home inicializado exitosamente
+2025-07-19 10:26:40,987 - app.Home - ERROR - Error inesperado al renderizar página: All numerical arguments must be of the same type.
+`value` has str type.
+`max_value` has int type.
+2025-07-19 10:26:40,995 - app.Home - INFO - Página home renderizada exitosamente
+2025-07-19 10:26:40,995 - __main__ - INFO - Aplicación ejecutándose correctamente
+2025-07-19 10:27:05,265 - __main__ - INFO - Módulo Home importado exitosamente
+2025-07-19 10:27:05,265 - __main__ - INFO - Archivo config.toml creado/actualizado en: C:\Users\ale23\.streamlit\config.toml
+2025-07-19 10:27:05,265 - src.utils.metrics - INFO - Directorio actual: C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-19 10:27:05,265 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-19 10:27:05,265 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-19 10:27:05,265 - src.utils.metrics - INFO - Directorio actual: C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-19 10:27:05,265 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-19 10:27:05,265 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-19 10:27:05,356 - src.utils.metrics - INFO - Directorio actual: C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-19 10:27:05,356 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-19 10:27:05,356 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-19 10:27:05,446 - app.Home - INFO - Estado de sesión inicializado con página predeterminada
+2025-07-19 10:27:05,455 - app.Home - INFO - Clase Home inicializada exitosamente
+2025-07-19 10:27:05,455 - __main__ - INFO - Menú Home inicializado exitosamente
+2025-07-19 10:27:05,455 - app.Home - INFO - Página home renderizada exitosamente
+2025-07-19 10:27:05,455 - __main__ - INFO - Aplicación ejecutándose correctamente
+2025-07-19 10:27:18,481 - __main__ - INFO - Módulo Home importado exitosamente
+2025-07-19 10:27:18,485 - src.utils.metrics - INFO - Directorio actual: C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-19 10:27:18,485 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-19 10:27:18,486 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-19 10:27:18,487 - src.utils.metrics - INFO - Directorio actual: C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-19 10:27:18,487 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-19 10:27:18,487 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-19 10:27:18,569 - src.utils.metrics - INFO - Directorio actual: C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-19 10:27:18,569 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-19 10:27:18,569 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-19 10:27:18,636 - app.Home - INFO - Clase Home inicializada exitosamente
+2025-07-19 10:27:18,636 - __main__ - INFO - Menú Home inicializado exitosamente
+2025-07-19 10:27:18,646 - app.Home - INFO - Página home renderizada exitosamente
+2025-07-19 10:27:18,646 - __main__ - INFO - Aplicación ejecutándose correctamente
+2025-07-19 10:27:28,566 - __main__ - INFO - Módulo Home importado exitosamente
+2025-07-19 10:27:28,567 - src.utils.metrics - INFO - Directorio actual: C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-19 10:27:28,567 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-19 10:27:28,567 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-19 10:27:28,567 - src.utils.metrics - INFO - Directorio actual: C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-19 10:27:28,567 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-19 10:27:28,567 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-19 10:27:28,665 - src.utils.metrics - INFO - Directorio actual: C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-19 10:27:28,665 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-19 10:27:28,665 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-19 10:27:28,732 - app.Home - INFO - Clase Home inicializada exitosamente
+2025-07-19 10:27:28,732 - __main__ - INFO - Menú Home inicializado exitosamente
+2025-07-19 10:27:28,740 - app.Home - INFO - Página home renderizada exitosamente
+2025-07-19 10:27:28,740 - __main__ - INFO - Aplicación ejecutándose correctamente
+2025-07-19 10:27:42,050 - __main__ - INFO - Módulo Home importado exitosamente
+2025-07-19 10:27:42,054 - src.utils.metrics - INFO - Directorio actual: C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-19 10:27:42,054 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-19 10:27:42,054 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-19 10:27:42,057 - src.utils.metrics - INFO - Directorio actual: C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-19 10:27:42,057 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-19 10:27:42,057 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-19 10:27:42,148 - src.utils.metrics - INFO - Directorio actual: C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-19 10:27:42,148 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-19 10:27:42,148 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-19 10:27:42,214 - app.Home - INFO - Clase Home inicializada exitosamente
+2025-07-19 10:27:42,214 - __main__ - INFO - Menú Home inicializado exitosamente
+2025-07-19 10:27:42,222 - app.Home - INFO - Página home renderizada exitosamente
+2025-07-19 10:27:42,222 - __main__ - INFO - Aplicación ejecutándose correctamente
+2025-07-19 10:27:52,060 - __main__ - INFO - Módulo Home importado exitosamente
+2025-07-19 10:27:52,060 - src.utils.metrics - INFO - Directorio actual: C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-19 10:27:52,068 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-19 10:27:52,068 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-19 10:27:52,068 - src.utils.metrics - INFO - Directorio actual: C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-19 10:27:52,068 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-19 10:27:52,068 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-19 10:27:52,166 - src.utils.metrics - INFO - Directorio actual: C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-19 10:27:52,166 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-19 10:27:52,166 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-19 10:27:52,239 - app.Home - INFO - Clase Home inicializada exitosamente
+2025-07-19 10:27:52,239 - __main__ - INFO - Menú Home inicializado exitosamente
+2025-07-19 10:27:52,247 - app.Home - INFO - Página home renderizada exitosamente
+2025-07-19 10:27:52,247 - __main__ - INFO - Aplicación ejecutándose correctamente
+2025-07-19 10:28:00,234 - __main__ - INFO - Módulo Home importado exitosamente
+2025-07-19 10:28:00,234 - src.utils.metrics - INFO - Directorio actual: C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-19 10:28:00,234 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-19 10:28:00,239 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-19 10:28:00,239 - src.utils.metrics - INFO - Directorio actual: C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-19 10:28:00,240 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-19 10:28:00,240 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-19 10:28:00,317 - src.utils.metrics - INFO - Directorio actual: C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-19 10:28:00,317 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-19 10:28:00,317 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-19 10:28:00,383 - app.Home - INFO - Clase Home inicializada exitosamente
+2025-07-19 10:28:00,383 - __main__ - INFO - Menú Home inicializado exitosamente
+2025-07-19 10:28:00,399 - app.Home - INFO - Página home renderizada exitosamente
+2025-07-19 10:28:00,401 - __main__ - INFO - Aplicación ejecutándose correctamente
+2025-07-19 10:28:02,163 - __main__ - INFO - Módulo Home importado exitosamente
+2025-07-19 10:28:02,163 - src.utils.metrics - INFO - Directorio actual: C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-19 10:28:02,163 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-19 10:28:02,163 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-19 10:28:02,163 - src.utils.metrics - INFO - Directorio actual: C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-19 10:28:02,163 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-19 10:28:02,171 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-19 10:28:02,246 - src.utils.metrics - INFO - Directorio actual: C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-19 10:28:02,246 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-19 10:28:02,246 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-19 10:28:02,320 - app.Home - INFO - Clase Home inicializada exitosamente
+2025-07-19 10:28:02,320 - __main__ - INFO - Menú Home inicializado exitosamente
+2025-07-19 10:28:02,463 - app.Home - INFO - Página home renderizada exitosamente
+2025-07-19 10:28:02,463 - __main__ - INFO - Aplicación ejecutándose correctamente
+2025-07-19 10:28:34,835 - __main__ - INFO - Módulo Home importado exitosamente
+2025-07-19 10:28:34,840 - src.utils.metrics - INFO - Directorio actual: C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-19 10:28:34,840 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-19 10:28:34,842 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-19 10:28:34,842 - src.utils.metrics - INFO - Directorio actual: C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-19 10:28:34,842 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-19 10:28:34,842 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-19 10:28:35,272 - src.utils.metrics - INFO - Directorio actual: C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-19 10:28:35,272 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-19 10:28:35,272 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-19 10:28:35,578 - app.Home - INFO - Clase Home inicializada exitosamente
+2025-07-19 10:28:35,578 - __main__ - INFO - Menú Home inicializado exitosamente
+2025-07-19 10:28:35,609 - app.Home - INFO - Página home renderizada exitosamente
+2025-07-19 10:28:35,611 - __main__ - INFO - Aplicación ejecutándose correctamente
+2025-07-19 10:28:37,919 - __main__ - INFO - Módulo Home importado exitosamente
+2025-07-19 10:28:37,923 - src.utils.metrics - INFO - Directorio actual: C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-19 10:28:37,926 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-19 10:28:37,929 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-19 10:28:37,931 - src.utils.metrics - INFO - Directorio actual: C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-19 10:28:37,933 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-19 10:28:37,933 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-19 10:28:38,210 - src.utils.metrics - INFO - Directorio actual: C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-19 10:28:38,210 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-19 10:28:38,210 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-19 10:28:38,482 - app.Home - INFO - Clase Home inicializada exitosamente
+2025-07-19 10:28:38,482 - __main__ - INFO - Menú Home inicializado exitosamente
+2025-07-19 10:28:38,506 - app.Home - INFO - Página home renderizada exitosamente
+2025-07-19 10:28:38,514 - __main__ - INFO - Aplicación ejecutándose correctamente
+2025-07-19 10:28:45,649 - __main__ - INFO - Módulo Home importado exitosamente
+2025-07-19 10:28:45,652 - src.utils.metrics - INFO - Directorio actual: C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-19 10:28:45,654 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-19 10:28:45,654 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-19 10:28:45,656 - src.utils.metrics - INFO - Directorio actual: C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-19 10:28:45,656 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-19 10:28:45,658 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-19 10:28:45,767 - src.utils.metrics - INFO - Directorio actual: C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-19 10:28:45,767 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-19 10:28:45,767 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-19 10:28:45,858 - app.Home - INFO - Clase Home inicializada exitosamente
+2025-07-19 10:28:45,858 - __main__ - INFO - Menú Home inicializado exitosamente
+2025-07-19 10:28:45,868 - app.Home - INFO - Página home renderizada exitosamente
+2025-07-19 10:28:45,868 - __main__ - INFO - Aplicación ejecutándose correctamente
+2025-07-19 10:28:55,019 - __main__ - INFO - Módulo Home importado exitosamente
+2025-07-19 10:28:55,022 - src.utils.metrics - INFO - Directorio actual: C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-19 10:28:55,022 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-19 10:28:55,022 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-19 10:28:55,022 - src.utils.metrics - INFO - Directorio actual: C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-19 10:28:55,027 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-19 10:28:55,028 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-19 10:28:55,121 - src.utils.metrics - INFO - Directorio actual: C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-19 10:28:55,130 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-19 10:28:55,130 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-19 10:28:55,221 - app.Home - INFO - Clase Home inicializada exitosamente
+2025-07-19 10:28:55,221 - __main__ - INFO - Menú Home inicializado exitosamente
+2025-07-19 10:28:55,221 - app.Home - INFO - Página home renderizada exitosamente
+2025-07-19 10:28:55,221 - __main__ - INFO - Aplicación ejecutándose correctamente
+2025-07-19 10:29:02,325 - __main__ - INFO - Módulo Home importado exitosamente
+2025-07-19 10:29:02,330 - src.utils.metrics - INFO - Directorio actual: C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-19 10:29:02,330 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-19 10:29:02,330 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-19 10:29:02,330 - src.utils.metrics - INFO - Directorio actual: C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-19 10:29:02,330 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-19 10:29:02,332 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-19 10:29:02,420 - src.utils.metrics - INFO - Directorio actual: C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-19 10:29:02,420 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-19 10:29:02,420 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-19 10:29:02,503 - app.Home - INFO - Clase Home inicializada exitosamente
+2025-07-19 10:29:02,505 - __main__ - INFO - Menú Home inicializado exitosamente
+2025-07-19 10:29:02,505 - app.Home - INFO - Página home renderizada exitosamente
+2025-07-19 10:29:02,505 - __main__ - INFO - Aplicación ejecutándose correctamente
+2025-07-19 10:29:04,803 - __main__ - INFO - Módulo Home importado exitosamente
+2025-07-19 10:29:04,813 - src.utils.metrics - INFO - Directorio actual: C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-19 10:29:04,813 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-19 10:29:04,813 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-19 10:29:04,813 - src.utils.metrics - INFO - Directorio actual: C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-19 10:29:04,813 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-19 10:29:04,819 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-19 10:29:04,918 - src.utils.metrics - INFO - Directorio actual: C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-19 10:29:04,918 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-19 10:29:04,918 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-19 10:29:05,000 - app.Home - INFO - Clase Home inicializada exitosamente
+2025-07-19 10:29:05,000 - __main__ - INFO - Menú Home inicializado exitosamente
+2025-07-19 10:29:05,139 - app.Home - INFO - Página home renderizada exitosamente
+2025-07-19 10:29:05,139 - __main__ - INFO - Aplicación ejecutándose correctamente
+2025-07-19 10:29:49,323 - __main__ - INFO - Módulo Home importado exitosamente
+2025-07-19 10:29:49,323 - __main__ - INFO - Archivo config.toml creado/actualizado en: C:\Users\ale23\.streamlit\config.toml
+2025-07-19 10:29:49,323 - src.utils.metrics - INFO - Directorio actual: C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-19 10:29:49,331 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-19 10:29:49,331 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-19 10:29:49,333 - src.utils.metrics - INFO - Directorio actual: C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-19 10:29:49,333 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-19 10:29:49,333 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-19 10:29:49,423 - src.utils.metrics - INFO - Directorio actual: C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-19 10:29:49,423 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-19 10:29:49,423 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-19 10:29:49,495 - app.Home - INFO - Estado de sesión inicializado con página predeterminada
+2025-07-19 10:29:49,495 - app.Home - INFO - Clase Home inicializada exitosamente
+2025-07-19 10:29:49,495 - __main__ - INFO - Menú Home inicializado exitosamente
+2025-07-19 10:29:49,506 - app.Home - INFO - Página home renderizada exitosamente
+2025-07-19 10:29:49,506 - __main__ - INFO - Aplicación ejecutándose correctamente
+2025-07-19 10:29:51,831 - __main__ - INFO - Módulo Home importado exitosamente
+2025-07-19 10:29:51,839 - src.utils.metrics - INFO - Directorio actual: C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-19 10:29:51,839 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-19 10:29:51,839 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-19 10:29:51,839 - src.utils.metrics - INFO - Directorio actual: C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-19 10:29:51,839 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-19 10:29:51,839 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-19 10:29:51,921 - src.utils.metrics - INFO - Directorio actual: C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-19 10:29:51,921 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-19 10:29:51,921 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-19 10:29:52,002 - app.Home - INFO - Clase Home inicializada exitosamente
+2025-07-19 10:29:52,002 - __main__ - INFO - Menú Home inicializado exitosamente
+2025-07-19 10:29:52,134 - app.Home - INFO - Página home renderizada exitosamente
+2025-07-19 10:29:52,134 - __main__ - INFO - Aplicación ejecutándose correctamente
