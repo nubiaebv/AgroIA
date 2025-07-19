@@ -2536,3 +2536,70 @@ TypeError: Route_Ann.convertir_numpy_a_python() takes 1 positional argument but 
 2025-07-18 15:18:44,340 - __main__ - INFO - Menï¿½ Home inicializado exitosamente
 2025-07-18 15:18:44,543 - app.Home - INFO - Pï¿½gina home renderizada exitosamente
 2025-07-18 15:18:44,544 - __main__ - INFO - Aplicaciï¿½n ejecutï¿½ndose correctamente
+2025-07-18 18:05:50,410 - __main__ - INFO - Módulo Home importado exitosamente
+2025-07-18 18:05:50,414 - __main__ - INFO - Archivo config.toml creado/actualizado en: C:\Users\ale23\.streamlit\config.toml
+2025-07-18 18:05:50,415 - src.utils.metrics - INFO - Directorio actual: C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-18 18:05:50,416 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-18 18:05:50,416 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-18 18:05:50,417 - src.utils.metrics - INFO - Directorio actual: C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-18 18:05:50,417 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-18 18:05:50,417 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-18 18:05:50,654 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-18 18:05:50,662 - src.utils.metrics - INFO - Directorio actual: C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-18 18:05:50,663 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-18 18:05:50,663 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-18 18:05:50,819 - app.Home - INFO - Estado de sesión inicializado con página predeterminada
+2025-07-18 18:05:50,820 - app.Home - INFO - Clase Home inicializada exitosamente
+2025-07-18 18:05:50,820 - __main__ - INFO - Menú Home inicializado exitosamente
+2025-07-18 18:05:52,136 - __main__ - INFO - Hilo de API lanzado exitosamente
+2025-07-18 18:05:52,138 - __main__ - INFO - Iniciando servidor API...
+2025-07-18 18:05:52,332 - app.Home - INFO - Página home renderizada exitosamente
+2025-07-18 18:05:52,333 - __main__ - INFO - Aplicación ejecutándose correctamente
+2025-07-18 18:05:52,537 - tensorflow - WARNING - From C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA\.venv\Lib\site-packages\keras\src\backend\common\global_state.py:82: The name tf.reset_default_graph is deprecated. Please use tf.compat.v1.reset_default_graph instead.
+
+2025-07-18 18:05:53,434 - Api - INFO - Aplicación FastAPI creada exitosamente
+2025-07-18 18:05:53,437 - routes.Route_Ann - INFO - Router ANN inicializado correctamente
+2025-07-18 18:05:53,439 - Api - INFO - Router ANN incluido exitosamente
+2025-07-18 18:05:53,441 - routes.Route_Cnn - INFO - Router CNN inicializado correctamente
+2025-07-18 18:05:53,443 - Api - INFO - Router CNN incluido exitosamente
+2025-07-18 18:05:53,445 - routes.Route_Rnn - INFO - Router ANN inicializado correctamente
+2025-07-18 18:05:53,447 - Api - INFO - Router CNN incluido exitosamente
+2025-07-18 18:06:00,712 - __main__ - INFO - Módulo Home importado exitosamente
+2025-07-18 18:06:00,713 - src.utils.metrics - INFO - Directorio actual: C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-18 18:06:00,714 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-18 18:06:00,714 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-18 18:06:00,715 - src.utils.metrics - INFO - Directorio actual: C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-18 18:06:00,715 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-18 18:06:00,716 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-18 18:06:00,853 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-18 18:06:00,866 - src.utils.metrics - INFO - Directorio actual: C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-18 18:06:00,867 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-18 18:06:00,868 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-18 18:06:00,995 - app.Home - INFO - Clase Home inicializada exitosamente
+2025-07-18 18:06:00,996 - __main__ - INFO - Menú Home inicializado exitosamente
+2025-07-18 18:06:01,002 - app.Home - INFO - Página home renderizada exitosamente
+2025-07-18 18:06:01,002 - __main__ - INFO - Aplicación ejecutándose correctamente
+2025-07-18 18:06:08,134 - __main__ - INFO - Módulo Home importado exitosamente
+2025-07-18 18:06:08,138 - src.utils.metrics - INFO - Directorio actual: C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-18 18:06:08,139 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-18 18:06:08,140 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-18 18:06:08,141 - src.utils.metrics - INFO - Directorio actual: C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-18 18:06:08,141 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-18 18:06:08,142 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-18 18:06:08,275 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-18 18:06:08,283 - src.utils.metrics - INFO - Directorio actual: C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-18 18:06:08,284 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-18 18:06:08,284 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-18 18:06:08,328 - __main__ - INFO - Módulo Home importado exitosamente
+2025-07-18 18:06:08,332 - src.utils.metrics - INFO - Directorio actual: C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-18 18:06:08,334 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-18 18:06:08,334 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-18 18:06:08,336 - src.utils.metrics - INFO - Directorio actual: C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-18 18:06:08,339 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-18 18:06:08,346 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-18 18:06:08,415 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-18 18:06:08,425 - src.utils.metrics - INFO - Directorio actual: C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-18 18:06:08,427 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-18 18:06:08,427 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-18 18:06:08,825 - app.Home - ERROR - Error inesperado en __init__: 'NoneType' object has no attribute 'pop'
+2025-07-18 18:06:08,826 - __main__ - ERROR - Error al inicializar Home: 'NoneType' object has no attribute 'pop'
