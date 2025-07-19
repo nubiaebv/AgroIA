@@ -2603,3 +2603,271 @@ TypeError: Route_Ann.convertir_numpy_a_python() takes 1 positional argument but 
 2025-07-18 18:06:08,427 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
 2025-07-18 18:06:08,825 - app.Home - ERROR - Error inesperado en __init__: 'NoneType' object has no attribute 'pop'
 2025-07-18 18:06:08,826 - __main__ - ERROR - Error al inicializar Home: 'NoneType' object has no attribute 'pop'
+2025-07-18 18:09:35,977 - __main__ - INFO - Módulo Home importado exitosamente
+2025-07-18 18:09:35,980 - __main__ - INFO - Archivo config.toml creado/actualizado en: C:\Users\ale23\.streamlit\config.toml
+2025-07-18 18:09:35,981 - src.utils.metrics - INFO - Directorio actual: C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-18 18:09:35,981 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-18 18:09:35,982 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-18 18:09:35,982 - src.utils.metrics - INFO - Directorio actual: C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-18 18:09:35,982 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-18 18:09:35,983 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-18 18:09:36,098 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-18 18:09:36,106 - src.utils.metrics - INFO - Directorio actual: C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-18 18:09:36,106 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-18 18:09:36,107 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-18 18:09:36,210 - app.Home - INFO - Estado de sesión inicializado con página predeterminada
+2025-07-18 18:09:36,211 - app.Home - INFO - Clase Home inicializada exitosamente
+2025-07-18 18:09:36,211 - __main__ - INFO - Menú Home inicializado exitosamente
+2025-07-18 18:09:37,550 - __main__ - INFO - Hilo de API lanzado exitosamente
+2025-07-18 18:09:37,550 - __main__ - INFO - Iniciando servidor API...
+2025-07-18 18:09:37,733 - app.Home - INFO - Página home renderizada exitosamente
+2025-07-18 18:09:37,734 - __main__ - INFO - Aplicación ejecutándose correctamente
+2025-07-18 18:09:37,880 - tensorflow - WARNING - From C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA\.venv\Lib\site-packages\keras\src\backend\common\global_state.py:82: The name tf.reset_default_graph is deprecated. Please use tf.compat.v1.reset_default_graph instead.
+
+2025-07-18 18:09:38,692 - Api - INFO - Aplicación FastAPI creada exitosamente
+2025-07-18 18:09:38,696 - routes.Route_Ann - INFO - Router ANN inicializado correctamente
+2025-07-18 18:09:38,700 - Api - INFO - Router ANN incluido exitosamente
+2025-07-18 18:09:38,703 - routes.Route_Cnn - INFO - Router CNN inicializado correctamente
+2025-07-18 18:09:38,705 - Api - INFO - Router CNN incluido exitosamente
+2025-07-18 18:09:38,707 - routes.Route_Rnn - INFO - Router ANN inicializado correctamente
+2025-07-18 18:09:38,710 - Api - INFO - Router CNN incluido exitosamente
+2025-07-18 18:10:00,714 - __main__ - INFO - Módulo Home importado exitosamente
+2025-07-18 18:10:00,717 - src.utils.metrics - INFO - Directorio actual: C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-18 18:10:00,718 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-18 18:10:00,719 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-18 18:10:00,720 - src.utils.metrics - INFO - Directorio actual: C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-18 18:10:00,721 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-18 18:10:00,721 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-18 18:10:00,862 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-18 18:10:00,874 - src.utils.metrics - INFO - Directorio actual: C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-18 18:10:00,875 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-18 18:10:00,875 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-18 18:10:00,998 - app.Home - INFO - Clase Home inicializada exitosamente
+2025-07-18 18:10:00,998 - __main__ - INFO - Menú Home inicializado exitosamente
+2025-07-18 18:10:01,001 - app.Home - INFO - Página seleccionada: Modelo CNN
+2025-07-18 18:10:01,312 - __main__ - INFO - Módulo Home importado exitosamente
+2025-07-18 18:10:01,313 - src.utils.metrics - INFO - Directorio actual: C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-18 18:10:01,314 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-18 18:10:01,315 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-18 18:10:01,315 - src.utils.metrics - INFO - Directorio actual: C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-18 18:10:01,316 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-18 18:10:01,316 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-18 18:10:01,390 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-18 18:10:01,397 - src.utils.metrics - INFO - Directorio actual: C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-18 18:10:01,397 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-18 18:10:01,397 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-18 18:10:01,492 - app.Home - INFO - Clase Home inicializada exitosamente
+2025-07-18 18:10:01,493 - __main__ - INFO - Menú Home inicializado exitosamente
+2025-07-18 18:10:01,499 - app.Home - INFO - Página home renderizada exitosamente
+2025-07-18 18:10:01,499 - __main__ - INFO - Aplicación ejecutándose correctamente
+2025-07-18 18:10:07,533 - __main__ - INFO - Módulo Home importado exitosamente
+2025-07-18 18:10:07,535 - src.utils.metrics - INFO - Directorio actual: C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-18 18:10:07,535 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-18 18:10:07,536 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-18 18:10:07,536 - src.utils.metrics - INFO - Directorio actual: C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-18 18:10:07,537 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-18 18:10:07,538 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-18 18:10:07,668 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-18 18:10:07,678 - src.utils.metrics - INFO - Directorio actual: C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-18 18:10:07,678 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-18 18:10:07,678 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-18 18:10:07,828 - app.Home - INFO - Clase Home inicializada exitosamente
+2025-07-18 18:10:07,829 - __main__ - INFO - Menú Home inicializado exitosamente
+2025-07-18 18:10:07,962 - app.Home - INFO - Página home renderizada exitosamente
+2025-07-18 18:10:07,963 - __main__ - INFO - Aplicación ejecutándose correctamente
+2025-07-18 18:10:12,297 - __main__ - INFO - Módulo Home importado exitosamente
+2025-07-18 18:10:12,299 - src.utils.metrics - INFO - Directorio actual: C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-18 18:10:12,300 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-18 18:10:12,301 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-18 18:10:12,302 - src.utils.metrics - INFO - Directorio actual: C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-18 18:10:12,303 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-18 18:10:12,304 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-18 18:10:12,413 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-18 18:10:12,420 - src.utils.metrics - INFO - Directorio actual: C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-18 18:10:12,421 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-18 18:10:12,421 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-18 18:10:12,515 - app.Home - INFO - Clase Home inicializada exitosamente
+2025-07-18 18:10:12,516 - __main__ - INFO - Menú Home inicializado exitosamente
+2025-07-18 18:10:12,528 - src.utils.metrics - INFO - Directorio actual: C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-18 18:10:12,530 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-18 18:10:12,530 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-18 18:10:12,779 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-18 18:10:13,899 - app.Home - INFO - Página home renderizada exitosamente
+2025-07-18 18:10:13,900 - __main__ - INFO - Aplicación ejecutándose correctamente
+2025-07-18 18:10:17,314 - __main__ - INFO - Módulo Home importado exitosamente
+2025-07-18 18:10:17,317 - src.utils.metrics - INFO - Directorio actual: C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-18 18:10:17,318 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-18 18:10:17,318 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-18 18:10:17,319 - src.utils.metrics - INFO - Directorio actual: C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-18 18:10:17,320 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-18 18:10:17,321 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-18 18:10:17,435 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-18 18:10:17,442 - src.utils.metrics - INFO - Directorio actual: C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-18 18:10:17,443 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-18 18:10:17,443 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-18 18:10:17,552 - app.Home - INFO - Clase Home inicializada exitosamente
+2025-07-18 18:10:17,552 - __main__ - INFO - Menú Home inicializado exitosamente
+2025-07-18 18:10:17,554 - app.Home - INFO - Página seleccionada: Modelo ANN
+2025-07-18 18:10:17,868 - __main__ - INFO - Módulo Home importado exitosamente
+2025-07-18 18:10:17,870 - src.utils.metrics - INFO - Directorio actual: C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-18 18:10:17,871 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-18 18:10:17,871 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-18 18:10:17,872 - src.utils.metrics - INFO - Directorio actual: C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-18 18:10:17,873 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-18 18:10:17,873 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-18 18:10:17,973 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-18 18:10:17,980 - src.utils.metrics - INFO - Directorio actual: C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-18 18:10:17,981 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-18 18:10:17,982 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-18 18:10:18,099 - app.Home - INFO - Clase Home inicializada exitosamente
+2025-07-18 18:10:18,100 - __main__ - INFO - Menú Home inicializado exitosamente
+2025-07-18 18:10:18,109 - app.Home - INFO - Página home renderizada exitosamente
+2025-07-18 18:10:18,109 - __main__ - INFO - Aplicación ejecutándose correctamente
+2025-07-18 18:10:23,742 - __main__ - INFO - Módulo Home importado exitosamente
+2025-07-18 18:10:23,742 - src.utils.metrics - INFO - Directorio actual: C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-18 18:10:23,742 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-18 18:10:23,742 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-18 18:10:23,742 - src.utils.metrics - INFO - Directorio actual: C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-18 18:10:23,742 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-18 18:10:23,742 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-18 18:10:23,858 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-18 18:10:23,861 - src.utils.metrics - INFO - Directorio actual: C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-18 18:10:23,861 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-18 18:10:23,861 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-18 18:10:23,992 - app.Home - INFO - Clase Home inicializada exitosamente
+2025-07-18 18:10:23,993 - __main__ - INFO - Menú Home inicializado exitosamente
+2025-07-18 18:10:23,998 - app.Home - INFO - Página home renderizada exitosamente
+2025-07-18 18:10:23,999 - __main__ - INFO - Aplicación ejecutándose correctamente
+2025-07-18 18:10:26,121 - __main__ - INFO - Módulo Home importado exitosamente
+2025-07-18 18:10:26,123 - src.utils.metrics - INFO - Directorio actual: C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-18 18:10:26,124 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-18 18:10:26,125 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-18 18:10:26,126 - src.utils.metrics - INFO - Directorio actual: C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-18 18:10:26,126 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-18 18:10:26,127 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-18 18:10:26,275 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-18 18:10:26,275 - src.utils.metrics - INFO - Directorio actual: C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-18 18:10:26,275 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-18 18:10:26,275 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-18 18:10:26,383 - app.Home - INFO - Clase Home inicializada exitosamente
+2025-07-18 18:10:26,384 - __main__ - INFO - Menú Home inicializado exitosamente
+2025-07-18 18:10:26,389 - app.Home - INFO - Página home renderizada exitosamente
+2025-07-18 18:10:26,389 - __main__ - INFO - Aplicación ejecutándose correctamente
+2025-07-18 18:10:28,215 - __main__ - INFO - Módulo Home importado exitosamente
+2025-07-18 18:10:28,218 - src.utils.metrics - INFO - Directorio actual: C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-18 18:10:28,220 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-18 18:10:28,220 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-18 18:10:28,220 - src.utils.metrics - INFO - Directorio actual: C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-18 18:10:28,222 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-18 18:10:28,222 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-18 18:10:28,349 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-18 18:10:28,360 - src.utils.metrics - INFO - Directorio actual: C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-18 18:10:28,360 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-18 18:10:28,360 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-18 18:10:28,475 - app.Home - INFO - Clase Home inicializada exitosamente
+2025-07-18 18:10:28,475 - __main__ - INFO - Menú Home inicializado exitosamente
+2025-07-18 18:10:28,491 - app.Home - INFO - Página home renderizada exitosamente
+2025-07-18 18:10:28,491 - __main__ - INFO - Aplicación ejecutándose correctamente
+2025-07-18 18:10:30,425 - __main__ - INFO - Módulo Home importado exitosamente
+2025-07-18 18:10:30,425 - src.utils.metrics - INFO - Directorio actual: C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-18 18:10:30,432 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-18 18:10:30,432 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-18 18:10:30,432 - src.utils.metrics - INFO - Directorio actual: C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-18 18:10:30,434 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-18 18:10:30,434 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-18 18:10:30,560 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-18 18:10:30,574 - src.utils.metrics - INFO - Directorio actual: C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-18 18:10:30,574 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-18 18:10:30,575 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-18 18:10:31,108 - app.Home - INFO - Clase Home inicializada exitosamente
+2025-07-18 18:10:31,108 - __main__ - INFO - Menú Home inicializado exitosamente
+2025-07-18 18:10:31,125 - app.Home - INFO - Página home renderizada exitosamente
+2025-07-18 18:10:31,125 - __main__ - INFO - Aplicación ejecutándose correctamente
+2025-07-18 18:10:33,334 - __main__ - INFO - Módulo Home importado exitosamente
+2025-07-18 18:10:33,337 - src.utils.metrics - INFO - Directorio actual: C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-18 18:10:33,337 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-18 18:10:33,341 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-18 18:10:33,342 - src.utils.metrics - INFO - Directorio actual: C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-18 18:10:33,344 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-18 18:10:33,345 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-18 18:10:33,461 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-18 18:10:33,469 - src.utils.metrics - INFO - Directorio actual: C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-18 18:10:33,469 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-18 18:10:33,469 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-18 18:10:33,562 - app.Home - INFO - Clase Home inicializada exitosamente
+2025-07-18 18:10:33,562 - __main__ - INFO - Menú Home inicializado exitosamente
+2025-07-18 18:10:33,569 - app.Home - INFO - Página home renderizada exitosamente
+2025-07-18 18:10:33,569 - __main__ - INFO - Aplicación ejecutándose correctamente
+2025-07-18 18:10:34,425 - __main__ - INFO - Módulo Home importado exitosamente
+2025-07-18 18:10:34,425 - src.utils.metrics - INFO - Directorio actual: C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-18 18:10:34,425 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-18 18:10:34,425 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-18 18:10:34,425 - src.utils.metrics - INFO - Directorio actual: C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-18 18:10:34,425 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-18 18:10:34,425 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-18 18:10:34,542 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-18 18:10:34,542 - src.utils.metrics - INFO - Directorio actual: C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-18 18:10:34,542 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-18 18:10:34,542 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-18 18:10:34,645 - app.Home - INFO - Clase Home inicializada exitosamente
+2025-07-18 18:10:34,645 - __main__ - INFO - Menú Home inicializado exitosamente
+2025-07-18 18:10:34,851 - app.Home - INFO - Página home renderizada exitosamente
+2025-07-18 18:10:34,853 - __main__ - INFO - Aplicación ejecutándose correctamente
+2025-07-18 18:10:47,494 - __main__ - INFO - Módulo Home importado exitosamente
+2025-07-18 18:10:47,494 - src.utils.metrics - INFO - Directorio actual: C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-18 18:10:47,494 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-18 18:10:47,494 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-18 18:10:47,494 - src.utils.metrics - INFO - Directorio actual: C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-18 18:10:47,494 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-18 18:10:47,494 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-18 18:10:47,621 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-18 18:10:47,627 - src.utils.metrics - INFO - Directorio actual: C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-18 18:10:47,627 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-18 18:10:47,627 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-18 18:10:47,760 - app.Home - INFO - Clase Home inicializada exitosamente
+2025-07-18 18:10:47,760 - __main__ - INFO - Menú Home inicializado exitosamente
+2025-07-18 18:10:47,760 - app.Home - INFO - Página seleccionada: Modelo RNN
+2025-07-18 18:10:48,109 - __main__ - INFO - Módulo Home importado exitosamente
+2025-07-18 18:10:48,109 - src.utils.metrics - INFO - Directorio actual: C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-18 18:10:48,109 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-18 18:10:48,109 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-18 18:10:48,122 - src.utils.metrics - INFO - Directorio actual: C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-18 18:10:48,122 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-18 18:10:48,125 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-18 18:10:48,225 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-18 18:10:48,242 - src.utils.metrics - INFO - Directorio actual: C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-18 18:10:48,242 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-18 18:10:48,242 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-18 18:10:48,359 - app.Home - INFO - Clase Home inicializada exitosamente
+2025-07-18 18:10:48,359 - __main__ - INFO - Menú Home inicializado exitosamente
+2025-07-18 18:10:48,373 - app.Home - INFO - Página home renderizada exitosamente
+2025-07-18 18:10:48,375 - __main__ - INFO - Aplicación ejecutándose correctamente
+2025-07-18 18:10:52,794 - __main__ - INFO - Módulo Home importado exitosamente
+2025-07-18 18:10:52,799 - src.utils.metrics - INFO - Directorio actual: C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-18 18:10:52,801 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-18 18:10:52,801 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-18 18:10:52,801 - src.utils.metrics - INFO - Directorio actual: C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-18 18:10:52,803 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-18 18:10:52,803 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-18 18:10:52,894 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-18 18:10:52,911 - src.utils.metrics - INFO - Directorio actual: C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-18 18:10:52,911 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-18 18:10:52,911 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-18 18:10:53,015 - app.Home - INFO - Clase Home inicializada exitosamente
+2025-07-18 18:10:53,015 - __main__ - INFO - Menú Home inicializado exitosamente
+2025-07-18 18:10:53,015 - app.Home - INFO - Página seleccionada: Modelo ANN
+2025-07-18 18:10:53,311 - __main__ - INFO - Módulo Home importado exitosamente
+2025-07-18 18:10:53,311 - src.utils.metrics - INFO - Directorio actual: C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-18 18:10:53,311 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-18 18:10:53,311 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-18 18:10:53,320 - src.utils.metrics - INFO - Directorio actual: C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-18 18:10:53,320 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-18 18:10:53,320 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-18 18:10:53,406 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-18 18:10:53,411 - src.utils.metrics - INFO - Directorio actual: C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-18 18:10:53,411 - src.utils.metrics - INFO - Archivos principales encontrados: ['main.py', 'src', 'app']
+2025-07-18 18:10:53,411 - src.utils.metrics - INFO - Usando directorio actual (tiene 3 archivos principales): C:\Users\ale23\Desktop\CUC\REPOS-CUC\AgroIA
+2025-07-18 18:10:53,527 - app.Home - INFO - Clase Home inicializada exitosamente
+2025-07-18 18:10:53,527 - __main__ - INFO - Menú Home inicializado exitosamente
+2025-07-18 18:10:53,543 - app.Home - INFO - Página home renderizada exitosamente
+2025-07-18 18:10:53,544 - __main__ - INFO - Aplicación ejecutándose correctamente
