@@ -70,10 +70,10 @@ class Modulo3Web:
         st.subheader('Ingrese los datos')
 
         # Inputs para las predicciones
-        temperatura = st.number_input('Temperatura máxima (°C)', min_value=0.0, max_value=50.0)
-        temperatura_min = st.number_input('Temperatura minima (°C)', min_value=0.0, max_value=50.0)
-        humedad_aire = st.number_input('Humedad del aire (%)', min_value=0.0, max_value=100.0)
-        precipitacion = st.number_input('Precipitación (mm)', min_value=0.0, max_value=1000.0)
+        temperatura = st.number_input('Temperatura máxima (°C)', min_value=0.0, max_value=50)
+        temperatura_min = st.number_input('Temperatura minima (°C)', min_value=0.0, max_value=50)
+        humedad_aire = st.number_input('Humedad del aire (%)', min_value=0.0, max_value=100)
+        precipitacion = st.number_input('Precipitación (mm)', min_value=0.0, max_value=1000)
         ph_suelo = st.number_input('pH del suelo', min_value=0.0, max_value=14.0)
 
 
